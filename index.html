@@ -1,74 +1,2056 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Excel Business School | Premium ACCA Tuition for Ambitious Professionals</title>
 
-  <meta name="description" content="Excel Business School provides premium ACCA tuition for ambitious students and working professionals through live online classes, recorded lectures, marked practice, academic governance, exam technique and structured tutor support for AAA, SBR and ATX." />
-  <meta name="theme-color" content="#0B1A30" />
+  <meta
+    name="description"
+    content="Excel Business School provides premium ACCA tuition for ambitious students and working professionals through live online classes, recorded lectures, marked practice, academic governance, exam technique and structured tutor support for AAA, SBR and ATX."
+  />
+
+  <meta name="theme-color" content="#120407" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Excel Business School" />
   <link rel="canonical" href="https://www.ebszimbabwe.online/" />
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Excel Business School | Premium ACCA Tuition" />
-  <meta property="og:description" content="Premium ACCA tuition for ambitious students and working professionals. Live online classes, recorded lectures, marked practice, academic discipline and direct tutor support." />
+  <meta
+    property="og:description"
+    content="Premium ACCA tuition for ambitious students and working professionals. Live online classes, recorded lectures, marked practice, academic discipline and direct tutor support."
+  />
   <meta property="og:url" content="https://www.ebszimbabwe.online/" />
   <meta property="og:image" content="https://www.ebszimbabwe.online/excel-logo.png" />
   <meta property="og:site_name" content="Excel Business School" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Excel Business School | Premium ACCA Tuition" />
+  <meta
+    name="twitter:description"
+    content="Structured ACCA tuition for AAA, SBR and ATX students who want technical mastery, exam discipline and professional support."
+  />
+  <meta name="twitter:image" content="https://www.ebszimbabwe.online/excel-logo.png" />
 
   <link rel="icon" type="image/png" href="excel-logo.png" />
   <link rel="apple-touch-icon" href="excel-logo.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: {
-              DEFAULT: '#0B1A30', // Deep Navy
-              light: '#1A2F4C'
-            },
-            accent: {
-              DEFAULT: '#8A1538', // Academic Burgundy
-              hover: '#6B0F2A'
-            },
-            surface: '#F8F9FA'
-          },
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-            serif: ['"Cormorant Garamond"', 'serif'],
-          }
-        }
-      }
-    }
-  </script>
+  <link
+    rel="preload"
+    as="image"
+    href="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1400&auto=format&fit=crop"
+    fetchpriority="high"
+  />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
 
   <style>
-    /* Scroll Reveal */
-    .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
-    .reveal.in-view { opacity: 1; transform: translateY(0); }
-    
-    /* Video Embed Overlay */
-    .video-container { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; cursor: pointer; overflow: hidden; border-radius: 0.5rem; }
-    .video-container img { width: 100%; height: 100%; object-fit: cover; opacity: 0.7; transition: opacity 0.3s; }
-    .video-container:hover img { opacity: 0.5; }
-    .play-ring { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 64px; height: 64px; background: rgba(138, 21, 56, 0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; transition: transform 0.3s; }
-    .video-container:hover .play-ring { transform: translate(-50%, -50%) scale(1.1); }
-    .embedded-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    
-    /* Form Status */
-    #formStatus { display: none; margin-top: 1rem; padding: 1rem; background: #e6f4ea; color: #1e4620; border-radius: 0.375rem; font-size: 0.875rem; }
-    #formStatus.show { display: block; }
+    :root {
+      --navy-950: #050914;
+      --navy-900: #071426;
+      --navy-850: #0b1a30;
+      --navy-800: #10213d;
+      --navy-700: #172e52;
+      --burgundy-800: #5f0f1a;
+      --burgundy-700: #7a1327;
+      --burgundy-600: #8a1538;
+      --gold-600: #d7b56d;
+      --gold-400: #f0d996;
+      --cream: #fff8ea;
+      --paper: #ffffff;
+      --mist: #f5f7fb;
+      --line: rgba(11, 26, 48, 0.12);
+      --line-soft: rgba(255, 255, 255, 0.12);
+      --text: #1f2937;
+      --muted: #64748b;
+      --shadow: 0 24px 70px rgba(5, 9, 20, 0.14);
+      --shadow-soft: 0 14px 40px rgba(5, 9, 20, 0.09);
+      --radius: 24px;
+      --radius-sm: 16px;
+      --max: 1200px;
+      --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-serif: "Cormorant Garamond", Georgia, serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 95px;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(215, 181, 109, 0.12), transparent 34rem),
+        linear-gradient(180deg, #ffffff 0%, #f7f9fd 48%, #ffffff 100%);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      background-image:
+        linear-gradient(rgba(11, 26, 48, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(11, 26, 48, 0.035) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.4), transparent 72%);
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 96px 0;
+      position: relative;
+    }
+
+    .section-divider {
+      background:
+        radial-gradient(circle at top right, rgba(138, 21, 56, 0.08), transparent 32rem),
+        linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+      border-block: 1px solid rgba(11, 26, 48, 0.08);
+    }
+
+    .eyebrow {
+      color: var(--burgundy-600);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 800;
+      font-size: 0.78rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .section-title {
+      margin: 0;
+      font-family: var(--font-serif);
+      color: var(--navy-850);
+      font-size: clamp(2.1rem, 4vw, 4.1rem);
+      line-height: 0.98;
+      letter-spacing: -0.035em;
+    }
+
+    .section-lead {
+      color: var(--muted);
+      font-size: 1.03rem;
+      max-width: 760px;
+      margin: 1.2rem 0 0;
+    }
+
+    .center-head {
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto 3rem;
+    }
+
+    .center-head .section-lead {
+      margin-inline: auto;
+    }
+
+    .btn,
+    .nav-apply,
+    .submit-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      border: 0;
+      cursor: pointer;
+      min-height: 48px;
+      padding: 0.85rem 1.25rem;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.92rem;
+      line-height: 1;
+      transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease, border-color 0.22s ease;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .btn:hover,
+    .nav-apply:hover,
+    .submit-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary,
+    .nav-apply,
+    .submit-btn {
+      background: linear-gradient(135deg, var(--burgundy-600), var(--burgundy-800));
+      color: #fff;
+      box-shadow: 0 16px 34px rgba(138, 21, 56, 0.28);
+    }
+
+    .btn-primary:hover,
+    .nav-apply:hover,
+    .submit-btn:hover {
+      box-shadow: 0 22px 48px rgba(138, 21, 56, 0.36);
+    }
+
+    .btn-outline {
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+    }
+
+    .section .btn-outline,
+    .student-resources .btn-outline,
+    .employer-card .btn-outline,
+    .contact-layout .btn-outline {
+      color: var(--navy-850);
+      border-color: rgba(11, 26, 48, 0.15);
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .ripple-target {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ripple {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(1);
+      background: rgba(255, 255, 255, 0.36);
+      animation: ripplePulse 0.7s ease-out forwards;
+      pointer-events: none;
+    }
+
+    @keyframes ripplePulse {
+      to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(18);
+      }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.78s cubic-bezier(0.16, 1, 0.3, 1), transform 0.78s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 80;
+      width: 58px;
+      height: 58px;
+      border-radius: 999px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: #25d366;
+      font-size: 1.85rem;
+      box-shadow: 0 20px 42px rgba(37, 211, 102, 0.34);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .whatsapp-float:hover {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 26px 54px rgba(37, 211, 102, 0.42);
+    }
+
+    .tech-topbar {
+      background: linear-gradient(90deg, var(--navy-950), var(--navy-850));
+      color: rgba(255, 255, 255, 0.78);
+      border-bottom: 1px solid var(--line-soft);
+      font-size: 0.82rem;
+    }
+
+    .topbar-inner {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .chip-row {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      flex-wrap: wrap;
+    }
+
+    .action-chip,
+    .prestige-pill,
+    .credential-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+      padding: 0.4rem 0.7rem;
+      background: rgba(255, 255, 255, 0.05);
+      white-space: nowrap;
+    }
+
+    .action-chip:hover {
+      color: #fff;
+      border-color: rgba(240, 217, 150, 0.35);
+    }
+
+    .live-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #22c55e;
+      box-shadow: 0 0 0 6px rgba(34, 197, 94, 0.12);
+      animation: livePulse 1.8s infinite;
+    }
+
+    @keyframes livePulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 70;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(11, 26, 48, 0.08);
+      box-shadow: 0 12px 34px rgba(5, 9, 20, 0.06);
+    }
+
+    .nav-inner {
+      min-height: 84px;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.9rem;
+      min-width: 270px;
+    }
+
+    .brand-logo {
+      width: 76px;
+      height: 56px;
+      border-radius: 16px;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      background: #fff;
+      border: 1px solid rgba(11, 26, 48, 0.1);
+      box-shadow: 0 12px 28px rgba(5, 9, 20, 0.08);
+      padding: 0.35rem;
+    }
+
+    .brand-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+
+    .brand-text strong {
+      font-family: var(--font-serif);
+      color: var(--navy-850);
+      font-size: 1.35rem;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-text span {
+      margin-top: 0.22rem;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-size: 0.7rem;
+      letter-spacing: 0.13em;
+      font-weight: 800;
+    }
+
+    .nav-links {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(0.55rem, 1vw, 1rem);
+    }
+
+    .nav-link {
+      color: #475569;
+      font-weight: 760;
+      font-size: 0.83rem;
+      padding: 0.55rem 0.4rem;
+      border-radius: 999px;
+      transition: color 0.2s ease, background 0.2s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--burgundy-600);
+      background: rgba(138, 21, 56, 0.06);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu-btn,
+    .close-btn {
+      display: none;
+      width: 46px;
+      height: 46px;
+      border-radius: 999px;
+      border: 1px solid rgba(11, 26, 48, 0.1);
+      background: #fff;
+      color: var(--navy-850);
+      cursor: pointer;
+      font-size: 1.15rem;
+    }
+
+    .mobile-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 90;
+      background: rgba(5, 9, 20, 0.68);
+      backdrop-filter: blur(12px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+    }
+
+    .mobile-backdrop.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mobile-menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 100;
+      width: min(430px, 88vw);
+      height: 100dvh;
+      overflow-y: auto;
+      background: #fff;
+      box-shadow: -34px 0 70px rgba(5, 9, 20, 0.22);
+      transform: translateX(105%);
+      transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .mobile-menu.open {
+      transform: translateX(0);
+    }
+
+    .mobile-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.3rem;
+      border-bottom: 1px solid rgba(11, 26, 48, 0.09);
+      background: linear-gradient(135deg, rgba(11, 26, 48, 0.04), rgba(138, 21, 56, 0.04));
+    }
+
+    .mobile-kicker {
+      color: var(--burgundy-600);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 0.72rem;
+      font-weight: 900;
+    }
+
+    .mobile-title {
+      font-family: var(--font-serif);
+      color: var(--navy-850);
+      font-weight: 800;
+      font-size: 1.45rem;
+    }
+
+    .mobile-links {
+      padding: 1rem;
+      display: grid;
+      gap: 0.5rem;
+    }
+
+    .mobile-links a,
+    .mobile-link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.95rem 1rem;
+      color: var(--navy-850);
+      font-weight: 800;
+      border-radius: 14px;
+      background: #f8fafc;
+      border: 1px solid rgba(11, 26, 48, 0.06);
+    }
+
+    .mobile-links a:hover,
+    .mobile-link:hover {
+      background: rgba(138, 21, 56, 0.08);
+      color: var(--burgundy-600);
+    }
+
+    .mobile-cta {
+      justify-content: center;
+      background: linear-gradient(135deg, var(--burgundy-600), var(--burgundy-800)) !important;
+      color: #fff !important;
+      margin-top: 0.7rem;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 760px;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(5, 9, 20, 0.92), rgba(11, 26, 48, 0.9) 52%, rgba(95, 15, 26, 0.82)),
+        url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1400&auto=format&fit=crop") center/cover no-repeat;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 16% 16%, rgba(215, 181, 109, 0.18), transparent 28rem),
+        radial-gradient(circle at 86% 20%, rgba(138, 21, 56, 0.32), transparent 24rem),
+        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+      background-size: auto, auto, 54px 54px, 54px 54px;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.03fr) minmax(360px, 0.97fr);
+      gap: 3rem;
+      align-items: center;
+      padding: 92px 0;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      border: 1px solid rgba(240, 217, 150, 0.35);
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      padding: 0.45rem 0.75rem;
+      color: var(--gold-400);
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      margin-bottom: 1.35rem;
+      backdrop-filter: blur(14px);
+    }
+
+    .hero-badge > span {
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: var(--gold-600);
+      box-shadow: 0 0 0 6px rgba(215, 181, 109, 0.14);
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-family: var(--font-serif);
+      font-size: clamp(3.1rem, 7vw, 6.8rem);
+      line-height: 0.84;
+      letter-spacing: -0.055em;
+    }
+
+    .hero h1 span {
+      display: block;
+      color: var(--gold-400);
+      font-style: italic;
+    }
+
+    .hero-lead {
+      max-width: 680px;
+      margin: 1.6rem 0 0;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 1.08rem;
+      line-height: 1.82;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    .metric-tile {
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.075);
+      backdrop-filter: blur(14px);
+    }
+
+    .metric-tile strong {
+      display: block;
+      color: var(--gold-400);
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    .metric-tile span {
+      display: block;
+      margin-top: 0.3rem;
+      color: rgba(255, 255, 255, 0.76);
+      font-size: 0.82rem;
+      line-height: 1.45;
+    }
+
+    .hero-dashboard {
+      min-width: 0;
+    }
+
+    .dashboard-shell {
+      position: relative;
+      padding: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: calc(var(--radius) + 10px);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 40px 90px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-image {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      min-height: 560px;
+    }
+
+    .hero-image > img {
+      width: 100%;
+      height: 560px;
+      object-fit: cover;
+      filter: saturate(1.05) contrast(1.02);
+    }
+
+    .hero-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 34%, rgba(5, 9, 20, 0.88) 100%);
+    }
+
+    .hero-console {
+      position: absolute;
+      z-index: 1;
+      left: 1.2rem;
+      right: 1.2rem;
+      bottom: 1.2rem;
+      padding: 1.25rem;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 22px;
+      background: rgba(5, 9, 20, 0.78);
+      backdrop-filter: blur(18px);
+    }
+
+    .console-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 0.85rem;
+      margin-bottom: 0.95rem;
+    }
+
+    .console-header small {
+      color: var(--gold-400);
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      font-weight: 900;
+    }
+
+    .console-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.78rem;
+      color: #fff;
+    }
+
+    .hero-console h3 {
+      margin: 0;
+      color: #fff;
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      line-height: 1.1;
+    }
+
+    .console-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .console-grid span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: rgba(255,255,255,0.78);
+      font-size: 0.82rem;
+      background: rgba(255,255,255,0.06);
+      border-radius: 999px;
+      padding: 0.55rem 0.65rem;
+    }
+
+    .signal-strip {
+      position: relative;
+      z-index: 5;
+      margin-top: -52px;
+      padding-bottom: 52px;
+    }
+
+    .signal-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .signal-card,
+    .value-card,
+    .command-panel,
+    .testimonial-card,
+    .outcome-card,
+    .blueprint-module,
+    .admission-card,
+    .pricing-card,
+    .governance-card,
+    .asset-card,
+    .calendar-card,
+    .experience-card,
+    .quality-step,
+    .resource-card,
+    .faq-item {
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(11, 26, 48, 0.09);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .signal-card:hover,
+    .value-card:hover,
+    .command-panel:hover,
+    .testimonial-card:hover,
+    .outcome-card:hover,
+    .blueprint-module:hover,
+    .admission-card:hover,
+    .pricing-card:hover,
+    .governance-card:hover,
+    .asset-card:hover,
+    .calendar-card:hover,
+    .experience-card:hover,
+    .quality-step:hover,
+    .resource-card:hover,
+    .faq-item:hover,
+    .course-module:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow);
+      border-color: rgba(138, 21, 56, 0.2);
+    }
+
+    .signal-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1.15rem;
+      backdrop-filter: blur(12px);
+    }
+
+    .signal-icon,
+    .value-icon,
+    .panel-icon,
+    .governance-icon,
+    .asset-icon,
+    .experience-icon,
+    .contact-option-icon,
+    .portal-row-icon {
+      flex: 0 0 auto;
+      width: 48px;
+      height: 48px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: linear-gradient(135deg, var(--burgundy-600), var(--navy-850));
+      box-shadow: 0 12px 28px rgba(138, 21, 56, 0.18);
+    }
+
+    .signal-card strong {
+      display: block;
+      color: var(--navy-850);
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .signal-card span {
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.45;
+    }
+
+    .prestige-band {
+      padding: 1rem 0;
+      background: linear-gradient(90deg, var(--navy-950), var(--navy-850), var(--burgundy-800));
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .prestige-track {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      justify-content: center;
+    }
+
+    .prestige-pill {
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 0.86rem;
+    }
+
+    .split-layout,
+    .faculty-layout,
+    .contact-layout,
+    .campus-preview {
+      display: grid;
+      grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .mini-panel-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .command-panel,
+    .premium-note-card,
+    .quote-panel,
+    .employer-card,
+    .form-panel,
+    .campus-terminal {
+      padding: 1.45rem;
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.9)),
+        radial-gradient(circle at top right, rgba(215,181,109,0.13), transparent 22rem);
+      border: 1px solid rgba(11, 26, 48, 0.1);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .panel-code {
+      color: var(--burgundy-600);
+      font-weight: 900;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .command-panel h3,
+    .premium-note-card h3,
+    .employer-card h3,
+    .experience-card h3 {
+      margin: 0.9rem 0 0;
+      color: var(--navy-850);
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      line-height: 1.05;
+    }
+
+    .command-panel p,
+    .premium-note-card p,
+    .value-card p,
+    .testimonial-card p,
+    .outcome-card p,
+    .blueprint-module p,
+    .admission-card p,
+    .pricing-card p,
+    .governance-card p,
+    .asset-card p,
+    .calendar-card p,
+    .experience-card p,
+    .quality-step p,
+    .resource-card p,
+    .faq-item p {
+      color: var(--muted);
+      margin: 0.7rem 0 0;
+      font-size: 0.94rem;
+    }
+
+    .values-wrap {
+      margin-top: 5rem;
+    }
+
+    .values-grid,
+    .success-grid,
+    .outcome-grid,
+    .blueprint-grid,
+    .admissions-grid,
+    .governance-grid,
+    .asset-grid,
+    .resource-command,
+    .faq-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .values-grid,
+    .success-grid,
+    .outcome-grid,
+    .courses-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .blueprint-grid,
+    .admissions-grid,
+    .governance-grid,
+    .asset-grid,
+    .resource-command,
+    .faq-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .value-card,
+    .testimonial-card,
+    .outcome-card,
+    .blueprint-module,
+    .admission-card,
+    .governance-card,
+    .asset-card,
+    .resource-card,
+    .faq-item {
+      padding: 1.35rem;
+    }
+
+    .premium-note-card {
+      margin-top: 2rem;
+      padding: 2rem;
+      background:
+        linear-gradient(135deg, var(--navy-950), var(--navy-850) 66%, var(--burgundy-800));
+      color: #fff;
+    }
+
+    .premium-note-card .eyebrow {
+      color: var(--gold-400);
+    }
+
+    .premium-note-card h3 {
+      color: #fff;
+      max-width: 850px;
+      font-size: clamp(1.8rem, 3vw, 3.2rem);
+    }
+
+    .premium-note-card p {
+      color: rgba(255,255,255,0.74);
+      max-width: 900px;
+    }
+
+    .premium-feature-row,
+    .credential-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1.4rem;
+    }
+
+    .premium-feature-row span,
+    .credential-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.55rem 0.75rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.14);
+      color: rgba(255,255,255,0.86);
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .courses-head,
+    .video-head {
+      display: grid;
+      grid-template-columns: 1fr 0.8fr;
+      gap: 2rem;
+      align-items: end;
+      margin-bottom: 2.5rem;
+    }
+
+    .course-module {
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: #fff;
+      border: 1px solid rgba(11, 26, 48, 0.09);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .course-image {
+      position: relative;
+      min-height: 260px;
+      overflow: hidden;
+      background: var(--navy-850);
+    }
+
+    .course-image img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      transform: scale(1.02);
+      transition: transform 0.5s ease;
+    }
+
+    .course-module:hover .course-image img {
+      transform: scale(1.08);
+    }
+
+    .course-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 30%, rgba(5, 9, 20, 0.88));
+    }
+
+    .course-badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 1;
+      color: var(--navy-850);
+      background: rgba(255,255,255,0.92);
+      border-radius: 999px;
+      padding: 0.35rem 0.65rem;
+      font-size: 0.72rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .course-label {
+      position: absolute;
+      z-index: 1;
+      left: 1.2rem;
+      right: 1.2rem;
+      bottom: 1rem;
+      color: #fff;
+    }
+
+    .course-label h3 {
+      font-family: var(--font-serif);
+      font-size: 3.1rem;
+      line-height: 0.9;
+      margin: 0;
+    }
+
+    .course-label p {
+      margin: 0.25rem 0 0;
+      color: rgba(255,255,255,0.76);
+      font-weight: 750;
+    }
+
+    .course-body {
+      padding: 1.4rem;
+    }
+
+    .course-body p,
+    .course-list {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .course-list,
+    .pricing-list,
+    .experience-list,
+    .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 1.1rem 0 0;
+    }
+
+    .course-list li,
+    .pricing-list li,
+    .experience-list li {
+      display: flex;
+      gap: 0.65rem;
+      margin: 0.65rem 0;
+      align-items: flex-start;
+      color: #475569;
+    }
+
+    .course-list i,
+    .pricing-list i,
+    .experience-list i {
+      color: var(--burgundy-600);
+      margin-top: 0.25rem;
+    }
+
+    .course-link,
+    .asset-link,
+    .resource-card a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--burgundy-600);
+      font-weight: 900;
+      margin-top: 1.1rem;
+    }
+
+    .testimonial-card {
+      position: relative;
+      padding-top: 2.4rem;
+    }
+
+    .quote-mark {
+      position: absolute;
+      top: 0.4rem;
+      right: 1rem;
+      font-family: var(--font-serif);
+      font-size: 4.8rem;
+      line-height: 1;
+      color: rgba(138, 21, 56, 0.15);
+    }
+
+    .testimonial-card h4,
+    .outcome-card h4,
+    .value-card h4,
+    .blueprint-module h4,
+    .admission-card h4,
+    .governance-card h4,
+    .asset-card h4,
+    .calendar-card h4,
+    .quality-step h4,
+    .resource-card h4,
+    .faq-item h4 {
+      color: var(--navy-850);
+      margin: 0.85rem 0 0;
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      line-height: 1.1;
+    }
+
+    .testimonial-meta {
+      margin-top: 1rem;
+      color: var(--burgundy-600);
+      font-weight: 900;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .module-index {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--burgundy-600);
+      font-size: 0.78rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .admission-step {
+      display: inline-flex;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 14px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--navy-850), var(--burgundy-600));
+      font-weight: 900;
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .pricing-card {
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pricing-card.featured {
+      background:
+        radial-gradient(circle at top right, rgba(215, 181, 109, 0.18), transparent 22rem),
+        linear-gradient(135deg, var(--navy-950), var(--navy-850));
+      color: #fff;
+      border-color: rgba(215, 181, 109, 0.22);
+    }
+
+    .pricing-card small {
+      display: inline-flex;
+      color: var(--burgundy-600);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .pricing-card.featured small,
+    .pricing-card.featured h3,
+    .pricing-card.featured .price {
+      color: var(--gold-400);
+    }
+
+    .pricing-card h3 {
+      color: var(--navy-850);
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      line-height: 1;
+      margin: 1rem 0 0;
+    }
+
+    .pricing-card.featured p,
+    .pricing-card.featured li {
+      color: rgba(255,255,255,0.76);
+    }
+
+    .price {
+      margin-top: 1.4rem;
+      color: var(--navy-850);
+      font-family: var(--font-serif);
+      font-size: 4rem;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .price span {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .faculty-media {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .faculty-media img {
+      width: 100%;
+      height: 620px;
+      object-fit: cover;
+    }
+
+    .floating-quote {
+      position: absolute;
+      left: 1.2rem;
+      right: 1.2rem;
+      bottom: 1.2rem;
+      color: #fff;
+      padding: 1.2rem;
+      border-radius: 20px;
+      background: rgba(5, 9, 20, 0.76);
+      border: 1px solid rgba(255,255,255,0.13);
+      backdrop-filter: blur(18px);
+    }
+
+    .floating-quote p {
+      margin: 0;
+      font-family: var(--font-serif);
+      font-size: 1.45rem;
+      line-height: 1.05;
+    }
+
+    .floating-quote strong {
+      display: block;
+      margin-top: 0.8rem;
+      color: var(--gold-400);
+      font-size: 0.82rem;
+    }
+
+    .quote-panel {
+      margin-top: 1.4rem;
+    }
+
+    .quote-panel p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .credential-chip {
+      color: var(--navy-850);
+      background: #f8fafc;
+      border-color: rgba(11, 26, 48, 0.08);
+      font-size: 0.82rem;
+    }
+
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .experience-card {
+      padding: 1.5rem;
+    }
+
+    .campus-preview {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at top left, rgba(215,181,109,0.13), transparent 28rem),
+        linear-gradient(135deg, var(--navy-950), var(--navy-850));
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .campus-preview .section-title {
+      color: #fff;
+    }
+
+    .campus-preview .section-lead {
+      color: rgba(255,255,255,0.72);
+    }
+
+    .campus-terminal {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.13);
+      box-shadow: none;
+      color: #fff;
+    }
+
+    .terminal-top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.13);
+    }
+
+    .terminal-dots {
+      display: flex;
+      gap: 0.35rem;
+    }
+
+    .terminal-dots span {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.36);
+    }
+
+    .terminal-title {
+      color: var(--gold-400);
+      font-weight: 900;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+    }
+
+    .portal-dashboard {
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .portal-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.8rem;
+      align-items: center;
+      padding: 0.9rem;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .portal-row strong {
+      display: block;
+      line-height: 1.2;
+    }
+
+    .portal-row span {
+      color: rgba(255,255,255,0.68);
+      font-size: 0.82rem;
+    }
+
+    .portal-row-icon {
+      width: 42px;
+      height: 42px;
+      background: rgba(215,181,109,0.18);
+      color: var(--gold-400);
+    }
+
+    .portal-status {
+      color: var(--gold-400) !important;
+      font-weight: 900;
+      font-size: 0.75rem !important;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .quality-chain {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 0.8rem;
+    }
+
+    .quality-step {
+      padding: 1.1rem;
+      min-height: 220px;
+    }
+
+    .quality-step small {
+      display: inline-flex;
+      color: var(--burgundy-600);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.72rem;
+    }
+
+    .employer-panel {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .employer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 1.3rem;
+    }
+
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .video-card {
+      min-width: 0;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: var(--navy-950);
+      cursor: pointer;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(11, 26, 48, 0.1);
+      outline: none;
+    }
+
+    .video-container:focus-visible {
+      box-shadow: 0 0 0 4px rgba(215,181,109,0.45), var(--shadow);
+    }
+
+    .video-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease, opacity 0.3s ease;
+    }
+
+    .video-container:hover img {
+      transform: scale(1.06);
+      opacity: 0.82;
+    }
+
+    .video-cover-shade {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(5,9,20,0.18), rgba(5,9,20,0.88));
+    }
+
+    .video-cover-content {
+      position: absolute;
+      left: 1.1rem;
+      right: 1.1rem;
+      bottom: 1rem;
+      color: #fff;
+      z-index: 1;
+    }
+
+    .video-paper-code {
+      display: inline-flex;
+      color: var(--gold-400);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 900;
+      margin-bottom: 0.55rem;
+    }
+
+    .video-cover-content h3 {
+      margin: 0;
+      font-family: var(--font-serif);
+      font-size: 1.55rem;
+      line-height: 1;
+    }
+
+    .video-cover-content p {
+      margin: 0.55rem 0 0;
+      color: rgba(255,255,255,0.72);
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+
+    .video-cover-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 0.8rem;
+    }
+
+    .video-cover-tags span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+      padding: 0.35rem 0.5rem;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.82);
+    }
+
+    .play-ring {
+      position: absolute;
+      z-index: 2;
+      top: 1rem;
+      right: 1rem;
+      width: 58px;
+      height: 58px;
+      border-radius: 999px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: linear-gradient(135deg, var(--burgundy-600), var(--burgundy-800));
+      box-shadow: 0 16px 34px rgba(95, 15, 26, 0.38);
+      transition: transform 0.25s ease;
+    }
+
+    .video-container:hover .play-ring {
+      transform: scale(1.08);
+    }
+
+    .video-title {
+      color: var(--navy-850);
+      font-weight: 900;
+      margin: 0.8rem 0 0;
+      text-align: center;
+    }
+
+    .embedded-video iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .contact-layout {
+      align-items: start;
+    }
+
+    .contact-options {
+      display: grid;
+      gap: 0.85rem;
+      margin-top: 1.5rem;
+    }
+
+    .contact-option {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      border-radius: 18px;
+      background: #fff;
+      border: 1px solid rgba(11, 26, 48, 0.08);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .contact-option strong,
+    .contact-option span span {
+      display: block;
+    }
+
+    .contact-option strong {
+      color: var(--navy-850);
+      line-height: 1.2;
+    }
+
+    .contact-option span span {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: 0.12rem;
+    }
+
+    .form-panel {
+      background: #fff;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      color: var(--navy-850);
+      font-weight: 900;
+      margin-bottom: 0.45rem;
+      font-size: 0.88rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      border: 1px solid rgba(11, 26, 48, 0.12);
+      border-radius: 14px;
+      padding: 0.9rem 1rem;
+      color: var(--text);
+      background: #f8fafc;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .form-group textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: rgba(138, 21, 56, 0.45);
+      background: #fff;
+      box-shadow: 0 0 0 4px rgba(138, 21, 56, 0.08);
+    }
+
+    .submit-btn {
+      width: 100%;
+      min-height: 54px;
+    }
+
+    .form-note {
+      color: var(--muted);
+      font-size: 0.84rem;
+      margin: 1rem 0 0;
+    }
+
+    .form-status {
+      display: none;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 16px;
+      color: #14532d;
+      background: #dcfce7;
+      border: 1px solid rgba(20, 83, 45, 0.16);
+      font-weight: 700;
+    }
+
+    .form-status.show {
+      display: block;
+    }
+
+    .final-cta {
+      padding: 96px 0;
+      color: #fff;
+      background:
+        radial-gradient(circle at top left, rgba(215,181,109,0.18), transparent 30rem),
+        linear-gradient(135deg, var(--navy-950), var(--navy-850), var(--burgundy-800));
+    }
+
+    .final-cta .container {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .final-cta h2 {
+      margin: 0;
+      color: #fff;
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 4vw, 4.6rem);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+
+    .final-cta p {
+      color: rgba(255,255,255,0.72);
+      max-width: 740px;
+      margin: 1rem 0 0;
+    }
+
+    .final-cta-actions {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .footer {
+      color: rgba(255,255,255,0.78);
+      background: var(--navy-950);
+      padding: 64px 0 22px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .footer-logo-box {
+      width: 112px;
+      height: 84px;
+      background: #fff;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      padding: 0.45rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer h4 {
+      margin: 0 0 1rem;
+      color: #fff;
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+    }
+
+    .footer p {
+      margin: 0;
+      max-width: 520px;
+    }
+
+    .footer li {
+      margin: 0.45rem 0;
+    }
+
+    .footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .footer a:hover {
+      color: var(--gold-400);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2.3rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.84rem;
+      color: rgba(255,255,255,0.58);
+    }
+
+    @media (max-width: 1120px) {
+      .nav-links,
+      .nav-actions {
+        display: none;
+      }
+
+      .menu-btn,
+      .close-btn {
+        display: inline-grid;
+        place-items: center;
+      }
+
+      .nav-inner {
+        justify-content: space-between;
+      }
+
+      .brand {
+        min-width: 0;
+      }
+
+      .topbar-inner {
+        justify-content: center;
+      }
+
+      .topbar-inner .chip-row:last-child {
+        display: none;
+      }
+
+      .hero-inner,
+      .split-layout,
+      .faculty-layout,
+      .contact-layout,
+      .campus-preview {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-dashboard {
+        order: -1;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-inner {
+        padding: 56px 0 96px;
+      }
+
+      .hero-image,
+      .hero-image > img {
+        min-height: 420px;
+        height: 420px;
+      }
+
+      .quality-chain {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 900px) {
+      .section {
+        padding: 72px 0;
+      }
+
+      .container {
+        width: min(100% - 28px, var(--max));
+      }
+
+      .signal-grid,
+      .values-grid,
+      .success-grid,
+      .outcome-grid,
+      .blueprint-grid,
+      .admissions-grid,
+      .governance-grid,
+      .asset-grid,
+      .resource-command,
+      .faq-grid,
+      .courses-grid,
+      .video-grid,
+      .experience-grid,
+      .calendar-grid,
+      .pricing-grid,
+      .employer-panel,
+      .mini-panel-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .courses-head,
+      .video-head {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .signal-strip {
+        margin-top: -36px;
+      }
+
+      .hero-metrics {
+        grid-template-columns: 1fr;
+      }
+
+      .final-cta .container {
+        grid-template-columns: 1fr;
+      }
+
+      .final-cta-actions {
+        justify-content: flex-start;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .tech-topbar {
+        display: none;
+      }
+
+      .nav-inner {
+        min-height: 76px;
+      }
+
+      .brand-logo {
+        width: 58px;
+        height: 48px;
+      }
+
+      .brand-text strong {
+        font-size: 1.12rem;
+      }
+
+      .brand-text span {
+        font-size: 0.62rem;
+      }
+
+      .hero h1 {
+        font-size: clamp(3rem, 18vw, 4.5rem);
+      }
+
+      .hero-lead,
+      .section-lead {
+        font-size: 0.98rem;
+      }
+
+      .hero-actions,
+      .final-cta-actions,
+      .employer-actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .quality-chain {
+        grid-template-columns: 1fr;
+      }
+
+      .portal-row {
+        grid-template-columns: auto 1fr;
+      }
+
+      .portal-status {
+        grid-column: 2;
+      }
+
+      .whatsapp-float {
+        width: 52px;
+        height: 52px;
+        font-size: 1.65rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
   </style>
+
 
   <script type="application/ld+json">
     {
@@ -79,535 +2061,1469 @@
       "logo": "https://www.ebszimbabwe.online/excel-logo.png",
       "description": "Premium ACCA tuition for ambitious students and working professionals.",
       "email": "lloyd.shumba@excelbusinessschool.uk",
-      "telephone": "+260975899280"
+      "telephone": "+260975899280",
+      "sameAs": [
+        "https://www.ebszimbabwe.online/"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "category": "ACCA Tuition",
+        "description": "Live online ACCA tuition, recorded lectures, marked practice, academic governance and tutor support for AAA, SBR and ATX."
+      }
     }
   </script>
 </head>
 
-<body class="bg-white text-gray-800 font-sans antialiased selection:bg-accent selection:text-white">
-
-  <a href="https://wa.me/260975899280" target="_blank" rel="noopener" aria-label="Contact on WhatsApp" 
-     class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg hover:scale-110 transition-transform">
-    <i class="fab fa-whatsapp"></i>
+<body>
+  <a
+    href="https://wa.me/260975899280"
+    target="_blank"
+    rel="noopener"
+    aria-label="Contact Excel Business School on WhatsApp"
+    class="whatsapp-float ripple-target"
+  >
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
   </a>
 
-  <header class="bg-primary text-gray-300 py-2 text-xs md:text-sm border-b border-primary-light hidden md:block">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-      <div class="flex items-center space-x-6">
-        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse"></span> Admissions open for ACCA candidates</span>
-        <span class="flex items-center"><i class="fas fa-moon mr-2"></i> Evening tuition</span>
+  <header class="tech-topbar" aria-label="Institutional contact bar">
+    <div class="container topbar-inner">
+      <div class="chip-row">
+        <span class="action-chip">
+          <span class="live-dot" aria-hidden="true"></span>
+          Admissions open for ambitious ACCA candidates
+        </span>
+
+        <span class="action-chip">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+          Premium evening tuition for working professionals
+        </span>
+
+        <span class="action-chip">
+          <i class="fas fa-shield-halved" aria-hidden="true"></i>
+          Structured academic governance
+        </span>
       </div>
-      <div class="flex items-center space-x-6">
-        <a href="mailto:lloyd.shumba@excelbusinessschool.uk" class="hover:text-white transition-colors"><i class="fa-solid fa-envelope mr-2"></i> lloyd.shumba@excelbusinessschool.uk</a>
-        <a href="https://wa.me/260975899280" target="_blank" class="hover:text-white transition-colors"><i class="fab fa-whatsapp mr-2"></i> +260 975 899 280</a>
+
+      <div class="chip-row">
+        <a href="mailto:lloyd.shumba@excelbusinessschool.uk" class="action-chip ripple-target">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          lloyd.shumba@excelbusinessschool.uk
+        </a>
+
+        <a href="https://wa.me/260975899280" target="_blank" rel="noopener" class="action-chip ripple-target">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          +260 975 899 280
+        </a>
       </div>
     </div>
   </header>
 
-  <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm" aria-label="Primary navigation">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-20">
-        <a href="index.html" class="flex items-center space-x-3 group">
-          <div class="w-10 h-10 bg-primary text-white flex items-center justify-center rounded-md font-serif font-bold text-xl">E</div>
-          <div class="flex flex-col">
-            <span class="font-serif font-bold text-xl text-primary leading-tight group-hover:text-accent transition-colors">Excel Business School</span>
-            <span class="text-xs text-gray-500 tracking-wider uppercase font-semibold">Private Business Institute</span>
-          </div>
-        </a>
+  <nav class="navbar" aria-label="Primary navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand ripple-target" aria-label="Excel Business School Home">
+        <span class="brand-logo">
+          <img src="excel-logo.png" width="82" height="58" alt="Excel Business School" />
+        </span>
 
-        <div class="hidden lg:flex items-center space-x-8">
-          <a href="#about" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">About</a>
-          <a href="#courses" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">Courses</a>
-          <a href="#success" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">Success</a>
-          <a href="#governance" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">Governance</a>
-          <a href="#sample-lectures" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">Lectures</a>
-          <div class="h-6 w-px bg-gray-200"></div>
-          <a href="#contact" class="bg-accent hover:bg-accent-hover text-white px-5 py-2.5 rounded-sm text-sm font-medium transition-all shadow-sm">
-            Apply Now <i class="fas fa-arrow-right ml-1 text-xs"></i>
-          </a>
-        </div>
+        <span class="brand-text">
+          <strong>Excel Business School</strong>
+          <span>Private Business Institute</span>
+        </span>
+      </a>
 
-        <button id="menuBtn" class="lg:hidden text-gray-600 hover:text-primary text-2xl p-2 focus:outline-none" aria-label="Open menu" aria-expanded="false">
-          <i class="fas fa-bars"></i>
-        </button>
+      <div class="nav-links" aria-label="Main navigation">
+        <a href="#home" class="nav-link ripple-target">Home</a>
+        <a href="#about" class="nav-link ripple-target">About</a>
+        <a href="#courses" class="nav-link ripple-target">Courses</a>
+        <a href="#success" class="nav-link ripple-target">Success</a>
+        <a href="#admissions" class="nav-link ripple-target">Admissions</a>
+        <a href="#governance" class="nav-link ripple-target">Governance</a>
+        <a href="#global-experience" class="nav-link ripple-target">Campus</a>
+        <a href="#sample-lectures" class="nav-link ripple-target">Lectures</a>
+        <a href="timetables.html" class="nav-link ripple-target">Timetables</a>
+        <a href="portal.html" class="nav-link ripple-target">Portal</a>
       </div>
+
+      <div class="nav-actions">
+        <a href="#contact" class="nav-apply ripple-target">
+          Apply Now
+          <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <button
+        class="menu-btn ripple-target"
+        id="menuBtn"
+        type="button"
+        aria-label="Open menu"
+        aria-controls="mobileMenu"
+        aria-expanded="false"
+      >
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
     </div>
   </nav>
 
-  <div id="mobileBackdrop" class="fixed inset-0 bg-primary/80 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300"></div>
+  <div class="mobile-backdrop" id="mobileBackdrop"></div>
 
-  <aside id="mobileMenu" class="fixed top-0 right-0 h-full w-4/5 max-w-sm bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 overflow-y-auto" aria-hidden="true">
-    <div class="p-6 border-b border-gray-100 flex justify-between items-center">
+  <aside class="mobile-menu" id="mobileMenu" aria-hidden="true" aria-label="Mobile navigation">
+    <div class="mobile-head">
       <div>
-        <div class="text-xs text-accent font-bold uppercase tracking-wider mb-1">Navigation</div>
-        <div class="font-serif font-bold text-lg text-primary">Excel Business School</div>
+        <div class="mobile-kicker">Navigation</div>
+        <div class="mobile-title">Excel Business School</div>
       </div>
-      <button id="closeBtn" class="text-gray-400 hover:text-primary text-2xl p-2"><i class="fas fa-times"></i></button>
+
+      <button class="close-btn ripple-target" id="closeBtn" type="button" aria-label="Close menu">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
     </div>
-    <div class="p-4 flex flex-col space-y-1">
-      <a href="#about" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">About</a>
-      <a href="#courses" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Courses</a>
-      <a href="#success" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Student Success</a>
-      <a href="#methodology" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Methodology</a>
-      <a href="#admissions" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Admissions</a>
-      <a href="#pricing" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Fees</a>
-      <a href="#governance" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Governance</a>
-      <a href="#sample-lectures" class="mobile-link block py-3 px-4 rounded-md text-gray-700 hover:bg-gray-50 hover:text-accent font-medium">Sample Lectures</a>
-      <div class="mt-6 pt-6 border-t border-gray-100 px-4">
-        <a href="#contact" class="mobile-link w-full block text-center bg-accent text-white py-3 rounded-sm font-medium">Apply Now</a>
-      </div>
+
+    <div class="mobile-links">
+      <a href="#home" class="mobile-link ripple-target">Home <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#about" class="mobile-link ripple-target">About <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#courses" class="mobile-link ripple-target">Courses <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#success" class="mobile-link ripple-target">Student Success <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#methodology" class="mobile-link ripple-target">Methodology <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#admissions" class="mobile-link ripple-target">Admissions <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#pricing" class="mobile-link ripple-target">Fees <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#faculty" class="mobile-link ripple-target">Faculty <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#governance" class="mobile-link ripple-target">Governance <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#global-experience" class="mobile-link ripple-target">Digital Campus <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#student-resources" class="mobile-link ripple-target">Student Resources <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#sample-lectures" class="mobile-link ripple-target">Sample Lectures <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="#faq" class="mobile-link ripple-target">FAQ <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="timetables.html" class="ripple-target">Timetables <i class="fas fa-calendar-alt" aria-hidden="true"></i></a>
+      <a href="portal.html" class="ripple-target">Student Portal <i class="fas fa-user-graduate" aria-hidden="true"></i></a>
+      <a href="#contact" class="mobile-link mobile-cta ripple-target">Apply Now</a>
     </div>
   </aside>
 
   <main>
-    <section id="home" class="relative bg-primary pt-20 pb-32 overflow-hidden">
-      <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1400&auto=format&fit=crop" alt="Students learning" class="w-full h-full object-cover opacity-20 mix-blend-overlay">
-        <div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/40"></div>
-      </div>
-      
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div class="reveal">
-            <div class="inline-flex items-center px-3 py-1 rounded-full border border-accent/50 bg-accent/10 text-white text-xs font-semibold tracking-wide uppercase mb-6">
-              <span class="w-1.5 h-1.5 rounded-full bg-accent mr-2"></span> ACCA Professional Tuition
-            </div>
-            <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Master the paper.<br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-400">Control the exam.</span>
-            </h1>
-            <p class="text-lg text-gray-300 mb-8 max-w-xl leading-relaxed">
-              Excel Business School delivers a premium online ACCA learning experience for ambitious professionals. Technical clarity, exam discipline, and direct tutor support for AAA, SBR, and ATX.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" class="bg-accent hover:bg-accent-hover text-white px-8 py-3.5 rounded-sm font-medium text-center transition-all">
-                Begin Admission <i class="fas fa-arrow-right ml-2"></i>
-              </a>
-              <a href="#sample-lectures" class="border border-gray-400 hover:border-white text-white px-8 py-3.5 rounded-sm font-medium text-center transition-all bg-white/5 backdrop-blur-sm">
-                <i class="fas fa-play text-xs mr-2"></i> Preview Classroom
-              </a>
-            </div>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="hero-badge">
+            <span aria-hidden="true"></span>
+            <div>ACCA Professional Tuition · AAA · SBR · ATX</div>
           </div>
 
-          <div class="reveal hidden lg:block">
-            <div class="bg-white/10 backdrop-blur-md border border-white/20 p-8 rounded-lg shadow-2xl relative">
-              <div class="absolute -top-4 -right-4 bg-accent text-white w-24 h-24 rounded-full flex flex-col items-center justify-center shadow-lg transform rotate-12">
-                <span class="text-2xl font-bold">1:1</span>
-                <span class="text-[10px] uppercase font-bold tracking-wider">Support</span>
-              </div>
-              <div class="text-xs text-gray-300 uppercase tracking-widest font-bold mb-4 border-b border-white/10 pb-4">Executive Learning Console</div>
-              <h3 class="font-serif text-xl text-white font-semibold mb-6">A disciplined system for professionals who study after work.</h3>
-              <ul class="space-y-4">
-                <li class="flex items-start text-gray-200"><i class="fas fa-check-circle text-accent mt-1 mr-3"></i> <span><strong>3x Weekly</strong> live academic sessions</span></li>
-                <li class="flex items-start text-gray-200"><i class="fas fa-check-circle text-accent mt-1 mr-3"></i> <span><strong>24/7</strong> recorded learning access</span></li>
-                <li class="flex items-start text-gray-200"><i class="fas fa-check-circle text-accent mt-1 mr-3"></i> <span><strong>Marked practice</strong> and detailed script feedback</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <h1>
+            Master the paper.
+            <span>Control the exam.</span>
+          </h1>
 
-    <section class="bg-white border-b border-gray-100 relative -mt-16 z-20 mx-4 sm:mx-6 lg:mx-auto max-w-7xl rounded-lg shadow-xl mb-24">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-gray-100">
-        <div class="p-8 reveal">
-          <div class="text-accent text-3xl mb-4"><i class="fas fa-chalkboard-teacher"></i></div>
-          <h4 class="font-serif font-bold text-primary text-lg mb-2">Live Delivery</h4>
-          <p class="text-sm text-gray-600">Structured evening classes tailored for working professionals.</p>
-        </div>
-        <div class="p-8 reveal" style="transition-delay: 100ms;">
-          <div class="text-accent text-3xl mb-4"><i class="fas fa-file-signature"></i></div>
-          <h4 class="font-serif font-bold text-primary text-lg mb-2">Marked Scripts</h4>
-          <p class="text-sm text-gray-600">Point-by-point correction and improvement guidance.</p>
-        </div>
-        <div class="p-8 reveal" style="transition-delay: 200ms;">
-          <div class="text-accent text-3xl mb-4"><i class="fas fa-video"></i></div>
-          <h4 class="font-serif font-bold text-primary text-lg mb-2">Recorded Access</h4>
-          <p class="text-sm text-gray-600">Replay, revise and consolidate difficult areas anytime.</p>
-        </div>
-        <div class="p-8 reveal" style="transition-delay: 300ms;">
-          <div class="text-accent text-3xl mb-4"><i class="fas fa-user-graduate"></i></div>
-          <h4 class="font-serif font-bold text-primary text-lg mb-2">Mentorship</h4>
-          <p class="text-sm text-gray-600">Professional guidance beyond ordinary exam theory.</p>
-        </div>
-      </div>
-    </section>
+          <p class="hero-lead">
+            Excel Business School delivers a premium online ACCA learning experience for ambitious students and working professionals who need technical clarity, exam discipline, marked practice, recorded lectures, academic governance and direct tutor support.
+          </p>
 
-    <section id="about" class="py-20 bg-surface">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-          <div class="reveal">
-            <div class="text-accent font-bold tracking-wider text-xs uppercase mb-3">Institutional Identity</div>
-            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">A premium academic environment for serious candidates.</h2>
-            <p class="text-gray-600 mb-6 text-lg">
-              Designed for professionals who want more than ordinary lectures. Our approach combines technical explanation, scenario application, exam discipline, and rigorous governance.
-            </p>
-            <div class="bg-white p-6 rounded-md shadow-sm border border-gray-100 border-l-4 border-l-accent mb-6">
-              <h4 class="font-serif font-bold text-primary mb-2">Academic Mission</h4>
-              <p class="text-sm text-gray-600">Train candidates to think, write and perform at a professional level, producing answers that score.</p>
-            </div>
-            <div class="bg-white p-6 rounded-md shadow-sm border border-gray-100 border-l-4 border-l-primary">
-              <h4 class="font-serif font-bold text-primary mb-2">Institutional Vision</h4>
-              <p class="text-sm text-gray-600">To be a globally recognized premium school for professional accountancy education.</p>
-            </div>
-          </div>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 reveal">
-            <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
-              <div class="w-12 h-12 bg-primary/5 text-primary flex items-center justify-center rounded-full mb-6 text-xl"><i class="fas fa-layer-group"></i></div>
-              <h4 class="font-serif font-bold text-primary mb-3">Structured Architecture</h4>
-              <p class="text-sm text-gray-600">Lessons move logically from principle, to scenario application, to standard answer drafting.</p>
-            </div>
-            <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 mt-0 sm:mt-8">
-              <div class="w-12 h-12 bg-accent/5 text-accent flex items-center justify-center rounded-full mb-6 text-xl"><i class="fas fa-pen-fancy"></i></div>
-              <h4 class="font-serif font-bold text-primary mb-3">Answer Discipline</h4>
-              <p class="text-sm text-gray-600">Train to write answers that are focused, applied, concise, and capable of earning marks.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary ripple-target">
+              Begin Admission
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
 
-    <section id="courses" class="py-24 bg-white border-t border-gray-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-          <div class="text-accent font-bold tracking-wider text-xs uppercase mb-3">Professional Programmes</div>
-          <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">Advanced ACCA tuition for technical mastery.</h2>
-          <p class="text-lg text-gray-600">Choose tuition designed for advanced-level students who need scenario judgment and professional answer presentation.</p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-          <article class="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100 overflow-hidden reveal group flex flex-col">
-            <div class="relative h-48 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=900&auto=format&fit=crop" alt="AAA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
-              <div class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Professional</div>
-            </div>
-            <div class="p-8 flex-1 flex flex-col">
-              <div class="flex items-baseline mb-4">
-                <h3 class="font-serif text-3xl font-bold text-primary mr-3">AAA</h3>
-                <p class="text-sm text-gray-500 font-medium">Advanced Audit & Assurance</p>
-              </div>
-              <p class="text-gray-600 text-sm mb-6 flex-1">Master audit risk, ethics, quality management, reporting, and evidence using exam-focused drafting.</p>
-              <ul class="space-y-2 mb-8 text-sm text-gray-600">
-                <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Scenario-based risk technique</li>
-                <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> ISA application & judgment</li>
-              </ul>
-              <a href="#contact" class="text-accent font-semibold text-sm group-hover:text-primary transition-colors flex items-center">
-                Enquire for AAA <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
-              </a>
-            </div>
-          </article>
-
-          <article class="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100 overflow-hidden reveal group flex flex-col" style="transition-delay: 100ms;">
-            <div class="relative h-48 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=900&auto=format&fit=crop" alt="SBR" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
-              <div class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Professional</div>
-            </div>
-            <div class="p-8 flex-1 flex flex-col">
-              <div class="flex items-baseline mb-4">
-                <h3 class="font-serif text-3xl font-bold text-primary mr-3">SBR</h3>
-                <p class="text-sm text-gray-500 font-medium">Strategic Business Reporting</p>
-              </div>
-              <p class="text-gray-600 text-sm mb-6 flex-1">Build confidence in IFRS application, group accounting, interpretation, and professional reporting judgment.</p>
-              <ul class="space-y-2 mb-8 text-sm text-gray-600">
-                <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> IFRS principle explanations</li>
-                <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Consolidation support</li>
-              </ul>
-              <a href="#contact" class="text-accent font-semibold text-sm group-hover:text-primary transition-colors flex items-center">
-                Enquire for SBR <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
-              </a>
-            </div>
-          </article>
-
-          <article class="bg-white rounded-xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100 overflow-hidden reveal group flex flex-col" style="transition-delay: 200ms;">
-            <div class="relative h-48 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=900&auto=format&fit=crop" alt="ATX" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
-              <div class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Professional</div>
-            </div>
-            <div class="p-8 flex-1 flex flex-col">
-              <div class="flex items-baseline mb-4">
-                <h3 class="font-serif text-3xl font-bold text-primary mr-3">ATX</h3>
-                <p class="text-sm text-gray-500 font-medium">Advanced Taxation UK</p>
-              </div>
-              <p class="text-gray-600 text-sm mb-6 flex-1">Develop technical tax knowledge, planning judgment, professional communication and structured calculations.</p>
-              <ul class="space-y-2 mb-8 text-sm text-gray-600">
-                <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tax planning technique</li>
-                <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Exam-standard responses</li>
-              </ul>
-              <a href="#contact" class="text-accent font-semibold text-sm group-hover:text-primary transition-colors flex items-center">
-                Enquire for ATX <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="methodology" class="py-24 bg-primary text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-          <div class="text-gray-400 font-bold tracking-wider text-xs uppercase mb-3">Learning Methodology</div>
-          <h2 class="font-serif text-3xl md:text-4xl font-bold mb-6">From technical coverage to exam-ready performance.</h2>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white/5 border border-white/10 p-6 rounded-lg reveal">
-            <div class="text-accent text-2xl mb-4"><i class="fas fa-chalkboard-user"></i></div>
-            <h4 class="font-serif font-bold text-lg mb-2">Live Teaching</h4>
-            <p class="text-sm text-gray-300">Classes explain difficult topics clearly and train students to apply technical knowledge under pressure.</p>
-          </div>
-          <div class="bg-white/5 border border-white/10 p-6 rounded-lg reveal" style="transition-delay: 100ms;">
-            <div class="text-accent text-2xl mb-4"><i class="fas fa-pencil-alt"></i></div>
-            <h4 class="font-serif font-bold text-lg mb-2">Marked Practice</h4>
-            <p class="text-sm text-gray-300">Script feedback helps improve answer quality, structure, timing and professional presentation.</p>
-          </div>
-          <div class="bg-white/5 border border-white/10 p-6 rounded-lg reveal" style="transition-delay: 200ms;">
-            <div class="text-accent text-2xl mb-4"><i class="fas fa-bullseye"></i></div>
-            <h4 class="font-serif font-bold text-lg mb-2">Exam Technique</h4>
-            <p class="text-sm text-gray-300">Learn how to draft points that score marks and avoid writing long but low-value answers.</p>
-          </div>
-          <div class="bg-white/5 border border-white/10 p-6 rounded-lg reveal" style="transition-delay: 300ms;">
-            <div class="text-accent text-2xl mb-4"><i class="fab fa-whatsapp"></i></div>
-            <h4 class="font-serif font-bold text-lg mb-2">Direct Support</h4>
-            <p class="text-sm text-gray-300">WhatsApp support helps students remain connected, ask questions and stay accountable.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="governance" class="py-24 bg-surface border-b border-gray-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-12 gap-12 items-center">
-          <div class="lg:col-span-5 reveal">
-            <div class="text-accent font-bold tracking-wider text-xs uppercase mb-3">Academic Governance</div>
-            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">Discipline, accountability, and professional conduct.</h2>
-            <p class="text-lg text-gray-600 mb-8">
-              A top-tier institution must look controlled. We are governed by clear academic expectations to ensure every student is positioned for success.
-            </p>
-            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20Student%20Handbook" class="inline-flex items-center text-primary font-bold hover:text-accent transition-colors">
-              Request Student Handbook <i class="fas fa-arrow-right ml-2"></i>
+            <a href="#sample-lectures" class="btn btn-outline ripple-target">
+              <i class="fas fa-play" aria-hidden="true"></i>
+              Preview the Classroom
             </a>
           </div>
-          
-          <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6 reveal">
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <h4 class="font-bold text-primary mb-2"><i class="fas fa-user-check text-gray-400 mr-2"></i> Attendance</h4>
-              <p class="text-sm text-gray-600">Live attendance is encouraged as participation strengthens the learning experience.</p>
+
+          <div class="hero-metrics" aria-label="Excel Business School support features">
+            <div class="metric-tile ripple-target">
+              <strong>3x</strong>
+              <span>Weekly live academic sessions</span>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <h4 class="font-bold text-primary mb-2"><i class="fas fa-file-pen text-gray-400 mr-2"></i> Assignments</h4>
-              <p class="text-sm text-gray-600">Marked work must be submitted timely to support proper feedback and progressive improvement.</p>
+
+            <div class="metric-tile ripple-target">
+              <strong>24/7</strong>
+              <span>Recorded learning access</span>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <h4 class="font-bold text-primary mb-2"><i class="fas fa-video text-gray-400 mr-2"></i> Recordings</h4>
-              <p class="text-sm text-gray-600">Provided for enrolled students to support revision, subject to access controls.</p>
+
+            <div class="metric-tile ripple-target">
+              <strong>1:1</strong>
+              <span>Script feedback and tutor guidance</span>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <h4 class="font-bold text-primary mb-2"><i class="fas fa-scale-balanced text-gray-400 mr-2"></i> Code of Conduct</h4>
-              <p class="text-sm text-gray-600">Students are expected to uphold academic integrity and professional communication.</p>
+          </div>
+        </div>
+
+        <div class="hero-dashboard reveal">
+          <div class="dashboard-shell">
+            <div class="hero-image">
+              <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1400&auto=format&fit=crop"
+                width="1400"
+                height="933"
+                alt="Professional students learning together"
+                decoding="async"
+                fetchpriority="high"
+              />
+
+              <div class="hero-console">
+                <div class="console-header">
+                  <small>Executive Learning Console</small>
+                  <span class="console-status"><span class="live-dot" aria-hidden="true"></span> Active Intake</span>
+                </div>
+
+                <h3>A disciplined learning system for professionals who study after work and still expect elite preparation.</h3>
+
+                <div class="console-grid">
+                  <span><i class="fas fa-moon" aria-hidden="true"></i> Evening learning</span>
+                  <span><i class="fas fa-video" aria-hidden="true"></i> Recorded lectures</span>
+                  <span><i class="fas fa-clipboard-check" aria-hidden="true"></i> Marked practice</span>
+                  <span><i class="fas fa-user-tie" aria-hidden="true"></i> Tutor guidance</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="pricing" class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-          <div class="text-accent font-bold tracking-wider text-xs uppercase mb-3">Tuition Investment</div>
-          <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">Transparent fee routes for committed candidates.</h2>
+    <section class="signal-strip" aria-label="Academic support features">
+      <div class="container signal-grid">
+        <div class="signal-card reveal">
+          <div class="signal-icon"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></div>
+          <div>
+            <strong>Live Academic Delivery</strong>
+            <span>Structured evening classes for working professionals</span>
+          </div>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <article class="bg-primary text-white rounded-2xl p-8 lg:p-10 shadow-2xl relative overflow-hidden reveal">
-            <div class="absolute top-0 right-0 bg-accent text-white text-xs font-bold px-4 py-1 rounded-bl-lg uppercase tracking-wider">Recommended</div>
-            <h3 class="font-serif text-2xl font-bold mb-2">Early Start Route</h3>
-            <p class="text-gray-300 text-sm mb-6">Start early and build deeper exam control. Best for thorough coverage.</p>
-            <div class="mb-8">
-              <span class="text-4xl font-bold">$270</span> <span class="text-gray-400">USD</span>
-            </div>
-            <ul class="space-y-4 mb-8 text-sm text-gray-200">
-              <li class="flex items-start"><i class="fas fa-check text-accent mt-1 mr-3"></i> Full tuition support to target sitting</li>
-              <li class="flex items-start"><i class="fas fa-check text-accent mt-1 mr-3"></i> Live evening classes</li>
-              <li class="flex items-start"><i class="fas fa-check text-accent mt-1 mr-3"></i> Recordings, notes & marked assignments</li>
-            </ul>
-            <a href="#contact" class="block w-full text-center bg-accent hover:bg-accent-hover text-white py-3 rounded-sm font-medium transition-colors">Apply for Early Start</a>
-          </article>
+        <div class="signal-card reveal">
+          <div class="signal-icon"><i class="fas fa-file-signature" aria-hidden="true"></i></div>
+          <div>
+            <strong>Marked Script Development</strong>
+            <span>Point-by-point correction and improvement guidance</span>
+          </div>
+        </div>
 
-          <article class="bg-white border border-gray-200 rounded-2xl p-8 lg:p-10 shadow-sm reveal" style="transition-delay: 100ms;">
-            <h3 class="font-serif text-2xl font-bold text-primary mb-2">Post-Exam Route</h3>
-            <p class="text-gray-600 text-sm mb-6">Start after the current exam cycle with a focused, intensive plan.</p>
-            <div class="mb-8">
-              <span class="text-4xl font-bold text-primary">$185</span> <span class="text-gray-500">USD</span>
-            </div>
-            <ul class="space-y-4 mb-8 text-sm text-gray-600">
-              <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-3"></i> Compact structured preparation plan</li>
-              <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-3"></i> Exam technique & scenario application</li>
-              <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-3"></i> Recorded catch-up & tutor support</li>
-            </ul>
-            <a href="#contact" class="block w-full text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-sm font-medium transition-colors">Apply for Post-Exam</a>
-          </article>
+        <div class="signal-card reveal">
+          <div class="signal-icon"><i class="fas fa-video" aria-hidden="true"></i></div>
+          <div>
+            <strong>Recorded Learning Access</strong>
+            <span>Replay, revise and consolidate difficult areas</span>
+          </div>
+        </div>
+
+        <div class="signal-card reveal">
+          <div class="signal-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></div>
+          <div>
+            <strong>Professional Mentorship</strong>
+            <span>Guidance beyond ordinary exam theory</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="sample-lectures" class="py-24 bg-surface border-t border-gray-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-          <div class="text-accent font-bold tracking-wider text-xs uppercase mb-3">Sample Lectures</div>
-          <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">Preview the teaching standard.</h2>
-        </div>
+    <section class="prestige-band" aria-label="Institutional highlights">
+      <div class="container prestige-track">
+        <span class="prestige-pill"><i class="fas fa-shield-halved" aria-hidden="true"></i> Academic governance</span>
+        <span class="prestige-pill"><i class="fas fa-video" aria-hidden="true"></i> Recorded learning access</span>
+        <span class="prestige-pill"><i class="fas fa-pen-nib" aria-hidden="true"></i> Marked script improvement</span>
+        <span class="prestige-pill"><i class="fas fa-user-tie" aria-hidden="true"></i> Professional mentoring</span>
+        <span class="prestige-pill"><i class="fas fa-laptop-code" aria-hidden="true"></i> Digital campus experience</span>
+      </div>
+    </section>
 
-        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+    <section id="about" class="section">
+      <div class="container">
+        <div class="split-layout">
           <div class="reveal">
-            <div class="video-container shadow-lg" data-video-id="HjckNBy0iEg" aria-label="Play AAA sample lecture" role="button" tabindex="0">
-              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=900&auto=format&fit=crop" alt="AAA Lecture" loading="lazy">
-              <div class="play-ring"><i class="fas fa-play"></i></div>
-            </div>
-            <div class="mt-4 text-center">
-              <h4 class="font-serif font-bold text-primary">AAA · Laws and Regulations</h4>
-            </div>
-          </div>
+            <div class="eyebrow">Institutional Identity</div>
+            <h2 class="section-title">A premium academic environment for serious ACCA candidates.</h2>
 
-          <div class="reveal" style="transition-delay: 100ms;">
-            <div class="video-container shadow-lg" data-video-id="DEO8dsAWi_w" aria-label="Play SBR sample lecture" role="button" tabindex="0">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=900&auto=format&fit=crop" alt="SBR Lecture" loading="lazy">
-              <div class="play-ring"><i class="fas fa-play"></i></div>
-            </div>
-            <div class="mt-4 text-center">
-              <h4 class="font-serif font-bold text-primary">SBR · Strategic Business Reporting</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="py-24 bg-primary text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-16">
-          <div class="reveal">
-            <div class="text-accent font-bold tracking-wider text-xs uppercase mb-3">Start Admission</div>
-            <h2 class="font-serif text-3xl md:text-4xl font-bold mb-6">Enter a structured learning system built for serious candidates.</h2>
-            <p class="text-gray-300 mb-10 text-lg">
-              Send your course enquiry. You can also contact us directly through WhatsApp or email for immediate assistance.
+            <p class="section-lead">
+              Excel Business School is designed for students and working professionals who want more than ordinary lectures. The approach combines technical explanation, scenario application, exam discipline, personal support, governance standards and professional confidence in a premium online learning environment.
             </p>
-            
-            <div class="space-y-6">
-              <a href="https://wa.me/260975899280" target="_blank" class="flex items-center group bg-white/5 border border-white/10 p-4 rounded-md hover:bg-white/10 transition-colors">
-                <div class="w-12 h-12 bg-accent/20 text-accent rounded-full flex items-center justify-center text-xl mr-4 group-hover:bg-accent group-hover:text-white transition-colors"><i class="fab fa-whatsapp"></i></div>
-                <div>
-                  <div class="font-bold text-white">WhatsApp Admissions</div>
-                  <div class="text-sm text-gray-400">+260 975 899 280</div>
-                </div>
-              </a>
-              <a href="mailto:lloyd.shumba@excelbusinessschool.uk" class="flex items-center group bg-white/5 border border-white/10 p-4 rounded-md hover:bg-white/10 transition-colors">
-                <div class="w-12 h-12 bg-primary-light text-gray-300 rounded-full flex items-center justify-center text-xl mr-4 group-hover:bg-gray-200 group-hover:text-primary transition-colors"><i class="fas fa-envelope"></i></div>
-                <div>
-                  <div class="font-bold text-white">Email Admissions</div>
-                  <div class="text-sm text-gray-400">lloyd.shumba@excelbusinessschool.uk</div>
-                </div>
-              </a>
-            </div>
           </div>
 
-          <div class="reveal">
-            <form id="admissionsForm" class="bg-white rounded-xl p-8 shadow-2xl text-gray-800">
-              <h3 class="font-serif text-2xl font-bold text-primary mb-6">Course Enquiry Form</h3>
-              
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-                  <input id="name" name="name" type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-all">
-                </div>
-                <div>
-                  <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">WhatsApp Number</label>
-                  <input id="phone" name="phone" type="tel" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-all" placeholder="+260 ...">
-                </div>
-              </div>
+          <div class="mini-panel-grid">
+            <article class="command-panel reveal ripple-target">
+              <div class="panel-code"><i class="fas fa-circle-nodes" aria-hidden="true"></i> Academic Mission</div>
+              <div class="panel-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></div>
+              <h3>Train candidates to think, write and perform at professional level.</h3>
+              <p>
+                The mission is to deliver structured, exam-focused and professionally relevant ACCA tuition that helps students understand complex topics, apply them under pressure and produce answers that score.
+              </p>
+            </article>
 
-              <div class="mb-6">
-                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                <input id="email" name="email" type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-all">
-              </div>
-
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-                <div>
-                  <label for="paper" class="block text-sm font-medium text-gray-700 mb-1">Paper of Interest</label>
-                  <select id="paper" name="paper" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-all bg-white">
-                    <option value="">Select paper</option>
-                    <option value="AAA - Advanced Audit and Assurance">AAA</option>
-                    <option value="SBR - Strategic Business Reporting">SBR</option>
-                    <option value="ATX - Advanced Taxation UK">ATX</option>
-                    <option value="General Enquiry">General Enquiry</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="targetSitting" class="block text-sm font-medium text-gray-700 mb-1">Target Exam Sitting</label>
-                  <input id="targetSitting" name="targetSitting" type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-all" placeholder="e.g. September">
-                </div>
-              </div>
-
-              <div class="mb-6">
-                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
-                <textarea id="message" name="message" rows="3" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-all resize-none"></textarea>
-              </div>
-
-              <button type="submit" class="w-full bg-primary hover:bg-primary-light text-white font-bold py-3 px-4 rounded-md transition-colors shadow-md">
-                Prepare Admission Email
-              </button>
-              <p class="text-xs text-gray-500 mt-4 text-center">This will open your email client securely.</p>
-              
-              <div id="formStatus" role="status" aria-live="polite">
-                Your email application should open now. If it does not, please email lloyd.shumba@excelbusinessschool.uk directly.
-              </div>
-            </form>
+            <article class="command-panel reveal ripple-target">
+              <div class="panel-code"><i class="fas fa-eye" aria-hidden="true"></i> Institutional Vision</div>
+              <div class="panel-icon"><i class="fas fa-eye" aria-hidden="true"></i></div>
+              <h3>Build a recognised premium school for professional accountancy education.</h3>
+              <p>
+                The vision is to become a premium tuition institution recognised across global markets for academic discipline, technical quality, structured support and student transformation.
+              </p>
+            </article>
           </div>
         </div>
+
+        <div class="values-wrap">
+          <div class="center-head reveal">
+            <div class="eyebrow">Institutional Standard</div>
+            <h2 class="section-title">Where disciplined learning meets professional execution.</h2>
+            <p class="section-lead">
+              The institution is positioned for students who want accountability, depth, consistency and a serious learning culture.
+            </p>
+          </div>
+
+          <div class="values-grid">
+            <div class="value-card reveal ripple-target">
+              <div class="value-icon"><i class="fas fa-layer-group" aria-hidden="true"></i></div>
+              <h4>Structured Learning Architecture</h4>
+              <p>Lessons are arranged to move from principle, to scenario application, to exam-standard answer drafting.</p>
+            </div>
+
+            <div class="value-card reveal ripple-target">
+              <div class="value-icon"><i class="fas fa-pen-fancy" aria-hidden="true"></i></div>
+              <h4>Professional Answer Discipline</h4>
+              <p>Students are trained to write answers that are focused, applied, concise and capable of earning marks.</p>
+            </div>
+
+            <div class="value-card reveal ripple-target">
+              <div class="value-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+              <h4>Flexible Learning Continuity</h4>
+              <p>Recordings support students who miss live sessions or need to revisit difficult areas during revision.</p>
+            </div>
+
+            <div class="value-card reveal ripple-target">
+              <div class="value-icon"><i class="fas fa-handshake-angle" aria-hidden="true"></i></div>
+              <h4>Direct Academic Support</h4>
+              <p>Students receive support that helps them stay accountable and confident throughout the tuition period.</p>
+            </div>
+          </div>
+        </div>
+
+        <article class="premium-note-card reveal ripple-target">
+          <div class="eyebrow">The Excel Standard</div>
+          <h3>A premium tuition experience should feel organised from the first enquiry to the final revision session.</h3>
+          <p>
+            The learning model is not built around random notes and isolated lessons. It is built around a disciplined route: live teaching, recorded access, structured notes, question practice, marked feedback, academic expectations and continuous exam technique refinement.
+          </p>
+
+          <div class="premium-feature-row">
+            <span><i class="fas fa-calendar-check" aria-hidden="true"></i> Clear study rhythm</span>
+            <span><i class="fas fa-book-open-reader" aria-hidden="true"></i> Focused notes</span>
+            <span><i class="fas fa-comments" aria-hidden="true"></i> Direct questions</span>
+            <span><i class="fas fa-medal" aria-hidden="true"></i> Professional standard</span>
+          </div>
+        </article>
       </div>
     </section>
 
-  </main>
+    <section id="courses" class="section section-divider">
+      <div class="container">
+        <div class="courses-head reveal">
+          <div>
+            <div class="eyebrow">Professional Programmes</div>
+            <h2 class="section-title">Advanced ACCA tuition for candidates who need more than content coverage.</h2>
+          </div>
 
-  <footer class="bg-gray-50 pt-16 pb-8 border-t border-gray-200 text-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-        <div class="col-span-1 md:col-span-2">
-          <div class="font-serif font-bold text-2xl text-primary mb-4">Excel Business School</div>
-          <p class="text-gray-600 mb-6 max-w-sm leading-relaxed">
-            Premium ACCA tuition, professional mentorship, recorded learning access, and exam-focused support for serious students and working professionals.
+          <p class="section-lead">
+            Choose tuition designed for advanced-level students who need technical competence, scenario judgment and professional answer presentation.
           </p>
         </div>
-        
+
+        <div class="courses-grid">
+          <article class="course-module reveal">
+            <div class="course-image">
+              <img
+                src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=900&auto=format&fit=crop"
+                width="900"
+                height="600"
+                alt="Advanced Audit and Assurance"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="course-badge">Professional</span>
+              <div class="course-label">
+                <h3>AAA</h3>
+                <p>Advanced Audit and Assurance</p>
+              </div>
+            </div>
+
+            <div class="course-body">
+              <p>
+                Master audit risk, business risk, ethics, quality management, reporting, evidence, laws and regulations, and professional skepticism using exam-focused drafting.
+              </p>
+
+              <ul class="course-list">
+                <li><i class="fas fa-check" aria-hidden="true"></i> Scenario-based audit risk and business risk technique</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> ISA application and professional judgment</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> Marked practice and script improvement</li>
+              </ul>
+
+              <a href="#contact" class="course-link ripple-target">
+                Enquire for AAA
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="course-module reveal">
+            <div class="course-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=900&auto=format&fit=crop"
+                width="900"
+                height="600"
+                alt="Strategic Business Reporting"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="course-badge">Professional</span>
+              <div class="course-label">
+                <h3>SBR</h3>
+                <p>Strategic Business Reporting</p>
+              </div>
+            </div>
+
+            <div class="course-body">
+              <p>
+                Build confidence in IFRS application, group accounting, interpretation, ethics, investor communication and professional reporting judgment.
+              </p>
+
+              <ul class="course-list">
+                <li><i class="fas fa-check" aria-hidden="true"></i> IFRS principle-based explanations</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> Scenario application and discussion technique</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> Consolidation and reporting support</li>
+              </ul>
+
+              <a href="#contact" class="course-link ripple-target">
+                Enquire for SBR
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="course-module reveal">
+            <div class="course-image">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=900&auto=format&fit=crop"
+                width="900"
+                height="600"
+                alt="Advanced Taxation UK"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="course-badge">Professional</span>
+              <div class="course-label">
+                <h3>ATX</h3>
+                <p>Advanced Taxation UK</p>
+              </div>
+            </div>
+
+            <div class="course-body">
+              <p>
+                Develop technical tax knowledge, planning judgment, professional communication and structured calculations for advanced taxation scenarios.
+              </p>
+
+              <ul class="course-list">
+                <li><i class="fas fa-check" aria-hidden="true"></i> Tax planning and advisory technique</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> Structured computations and explanations</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> Exam-standard professional responses</li>
+              </ul>
+
+              <a href="#contact" class="course-link ripple-target">
+                Enquire for ATX
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="success" class="section">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Student Progress</div>
+          <h2 class="section-title">Performance is not left to chance. It is trained, reviewed and refined.</h2>
+          <p class="section-lead">
+            Excel Business School is built around visible student progress: better technical understanding, stronger script presentation, improved exam confidence and disciplined study behaviour.
+          </p>
+        </div>
+
+        <div class="success-grid">
+          <article class="testimonial-card reveal ripple-target">
+            <div class="quote-mark">“</div>
+            <h4>From weak scripts to mark-driven answers</h4>
+            <p>
+              Students are guided to move from general, unfocused answers to issue-based, scenario-applied and mark-driven responses.
+            </p>
+            <div class="testimonial-meta">Marked practice · Answer discipline</div>
+          </article>
+
+          <article class="testimonial-card reveal ripple-target">
+            <div class="quote-mark">“</div>
+            <h4>Built for professionals with demanding schedules</h4>
+            <p>
+              Evening classes, recordings and WhatsApp guidance help students remain consistent even where work commitments are demanding.
+            </p>
+            <div class="testimonial-meta">After-work study · Flexible access</div>
+          </article>
+
+          <article class="testimonial-card reveal ripple-target">
+            <div class="quote-mark">“</div>
+            <h4>Confidence under exam pressure</h4>
+            <p>
+              The learning model trains students to understand the question, identify the examiner’s requirement and produce relevant points under time pressure.
+            </p>
+            <div class="testimonial-meta">Exam technique · Professional judgment</div>
+          </article>
+        </div>
+
+        <div class="outcome-grid">
+          <article class="outcome-card reveal ripple-target">
+            <div class="panel-icon"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
+            <h4>Technical clarity that survives pressure</h4>
+            <p>
+              Students are helped to understand the substance behind standards, audit requirements and professional scenarios rather than memorising isolated notes.
+            </p>
+          </article>
+
+          <article class="outcome-card reveal ripple-target">
+            <div class="panel-icon"><i class="fas fa-pen-nib" aria-hidden="true"></i></div>
+            <h4>Professional-grade answer drafting</h4>
+            <p>
+              The tuition approach trains students to identify the issue, apply the scenario, develop the point and write with examination discipline.
+            </p>
+          </article>
+
+          <article class="outcome-card reveal ripple-target">
+            <div class="panel-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+            <h4>Progressive improvement before exam day</h4>
+            <p>
+              Marked work, feedback and revision planning help students see where marks are being lost and how to correct their approach before the exam.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="methodology" class="section section-divider">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Learning Methodology</div>
+          <h2 class="section-title">From technical coverage to exam-ready performance.</h2>
+          <p class="section-lead">
+            The study model is structured to support students who need consistency, accountability and a clear route from technical coverage to exam performance.
+          </p>
+        </div>
+
+        <div class="blueprint-grid">
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 01</span><i class="fas fa-calendar-alt" aria-hidden="true"></i></div>
+            <h4>Study Planning</h4>
+            <p>Students follow a structured rhythm that makes preparation easier to manage alongside work commitments.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 02</span><i class="fas fa-chalkboard-user" aria-hidden="true"></i></div>
+            <h4>Live Teaching</h4>
+            <p>Classes explain difficult topics clearly and train students to apply technical knowledge under pressure.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 03</span><i class="fas fa-laptop-house" aria-hidden="true"></i></div>
+            <h4>Recorded Lectures</h4>
+            <p>Rewatch lessons when revising, catching up or consolidating difficult areas before question practice.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 04</span><i class="fas fa-pencil-alt" aria-hidden="true"></i></div>
+            <h4>Marked Practice</h4>
+            <p>Script feedback helps improve answer quality, structure, timing and professional presentation.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 05</span><i class="fas fa-brain" aria-hidden="true"></i></div>
+            <h4>Technical Mastery</h4>
+            <p>Difficult standards and topics are broken down carefully so students understand the principles.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 06</span><i class="fas fa-bullseye" aria-hidden="true"></i></div>
+            <h4>Exam Technique</h4>
+            <p>Learn how to draft points that score marks and avoid writing long but low-value answers.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 07</span><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+            <h4>Direct Support</h4>
+            <p>WhatsApp support helps students remain connected, ask questions and stay accountable.</p>
+          </div>
+
+          <div class="blueprint-module reveal ripple-target">
+            <div class="module-index"><span>Module 08</span><i class="fas fa-user-tie" aria-hidden="true"></i></div>
+            <h4>Career Mindset</h4>
+            <p>Guidance extends beyond the exam room into professional confidence and workplace readiness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions" class="section">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Admissions Journey</div>
+          <h2 class="section-title">A controlled onboarding route from enquiry to academic execution.</h2>
+          <p class="section-lead">
+            The admissions route gives every learner a professional starting point before tuition begins, so expectations are clear from the first interaction.
+          </p>
+        </div>
+
+        <div class="admissions-grid">
+          <article class="admission-card reveal ripple-target">
+            <span class="admission-step">01</span>
+            <h4>Submit Enquiry</h4>
+            <p>Students provide their paper of interest, target sitting, contact details and current study position.</p>
+          </article>
+
+          <article class="admission-card reveal ripple-target">
+            <span class="admission-step">02</span>
+            <h4>Academic Consultation</h4>
+            <p>The student’s needs are reviewed so that the correct tuition route, timetable and expectations are understood.</p>
+          </article>
+
+          <article class="admission-card reveal ripple-target">
+            <span class="admission-step">03</span>
+            <h4>Registration Confirmation</h4>
+            <p>Enrollment is confirmed after the applicable tuition arrangement and admission communication are completed.</p>
+          </article>
+
+          <article class="admission-card reveal ripple-target">
+            <span class="admission-step">04</span>
+            <h4>Learning Access</h4>
+            <p>Students are guided on class attendance, recordings, notes, WhatsApp groups and structured support channels.</p>
+          </article>
+
+          <article class="admission-card reveal ripple-target">
+            <span class="admission-step">05</span>
+            <h4>Execution Discipline</h4>
+            <p>The learner begins live classes, practice submissions, feedback cycles and revision milestones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section section-divider">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Tuition Investment</div>
+          <h2 class="section-title">Transparent fee routes for committed ACCA candidates.</h2>
+          <p class="section-lead">
+            Choose the route that matches when you want to start. Every route includes live teaching, recorded lectures, notes, WhatsApp support and marked practice.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card featured reveal ripple-target">
+            <small>Early start route</small>
+            <h3>Start early and build deeper exam control.</h3>
+            <p>
+              Recommended for students who want more time for technical coverage, question practice and revision.
+            </p>
+
+            <div class="price">$270 <span>USD</span></div>
+
+            <ul class="pricing-list">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Full tuition support up to the target sitting</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Live evening classes for working students</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Recordings, notes and marked assignments</li>
+            </ul>
+          </article>
+
+          <article class="pricing-card reveal ripple-target">
+            <small>Post-exam start route</small>
+            <h3>Start after the current exam cycle with a focused plan.</h3>
+            <p>
+              Suitable for students who need a focused programme after completing their current exams.
+            </p>
+
+            <div class="price">$185 <span>USD</span></div>
+
+            <ul class="pricing-list">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Compact structured preparation plan</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Exam technique and scenario application</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Recorded catch-up and tutor support</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faculty" class="section">
+      <div class="container faculty-layout">
+        <div class="faculty-media reveal">
+          <img
+            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop"
+            width="1200"
+            height="800"
+            alt="Professional learning environment"
+            loading="lazy"
+            decoding="async"
+          />
+
+          <div class="floating-quote">
+            <p>My goal is to make the complex simple, then train students to apply it under pressure.</p>
+            <strong>Lloyd Shumba · Expert Tutor and Professional Trainer</strong>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="eyebrow">Faculty and Mentorship</div>
+          <h2 class="section-title">Expert academic guidance with professional judgement at its core.</h2>
+
+          <p class="section-lead">
+            Excel Business School focuses on clear explanations, professional application and disciplined exam preparation. Students are guided to understand the underlying principle, apply it to the scenario and present a strong answer under exam conditions.
+          </p>
+
+          <div class="quote-panel">
+            <p>
+              The mentorship model is designed to strengthen technical competence, examination judgment, professional communication and resilience. Students receive a disciplined learning environment that mirrors the standards expected in professional accounting practice.
+            </p>
+
+            <div class="credential-grid">
+              <div class="credential-chip"><i class="fas fa-check-circle" aria-hidden="true"></i> Exam-focused tuition</div>
+              <div class="credential-chip"><i class="fas fa-check-circle" aria-hidden="true"></i> Structured feedback</div>
+              <div class="credential-chip"><i class="fas fa-check-circle" aria-hidden="true"></i> Professional mentoring</div>
+              <div class="credential-chip"><i class="fas fa-check-circle" aria-hidden="true"></i> Scenario discipline</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="governance" class="section section-divider">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Academic Governance</div>
+          <h2 class="section-title">Academic discipline, student accountability and professional conduct.</h2>
+          <p class="section-lead">
+            A top-tier institution must look controlled. This section gives students confidence that the school is not informal or random, but governed by clear academic expectations.
+          </p>
+        </div>
+
+        <div class="governance-grid">
+          <article class="governance-card reveal ripple-target">
+            <div class="governance-icon"><i class="fas fa-scale-balanced" aria-hidden="true"></i></div>
+            <h4>Code of Conduct</h4>
+            <p>Students are expected to communicate professionally, attend classes respectfully and uphold academic integrity during learning and assessments.</p>
+          </article>
+
+          <article class="governance-card reveal ripple-target">
+            <div class="governance-icon"><i class="fas fa-user-check" aria-hidden="true"></i></div>
+            <h4>Attendance Expectations</h4>
+            <p>Live attendance is encouraged because class participation, explanation and direct questioning strengthen the learning experience.</p>
+          </article>
+
+          <article class="governance-card reveal ripple-target">
+            <div class="governance-icon"><i class="fas fa-file-pen" aria-hidden="true"></i></div>
+            <h4>Assignment Policy</h4>
+            <p>Marked work must be submitted within agreed timelines to support proper feedback, correction and progressive improvement.</p>
+          </article>
+
+          <article class="governance-card reveal ripple-target">
+            <div class="governance-icon"><i class="fas fa-video" aria-hidden="true"></i></div>
+            <h4>Recording Access</h4>
+            <p>Recordings are provided for enrolled students to support revision and catch-up, subject to access controls and academic use only.</p>
+          </article>
+
+          <article class="governance-card reveal ripple-target">
+            <div class="governance-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+            <h4>Data Privacy</h4>
+            <p>Student contact details, academic information and communication records are handled with confidentiality and professional care.</p>
+          </article>
+
+          <article class="governance-card reveal ripple-target">
+            <div class="governance-icon"><i class="fas fa-rotate-left" aria-hidden="true"></i></div>
+            <h4>Deferral Guidance</h4>
+            <p>Where students need to change study timing, guidance is provided based on the tuition route, access period and academic progress.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="institutional-assets" class="section">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Institutional Credibility</div>
+          <h2 class="section-title">A serious business school shows its systems, not just its promises.</h2>
+          <p class="section-lead">
+            Premium institutions do not rely on appearance alone. They show learning systems, academic documentation, student support structures and a clear institutional rhythm.
+          </p>
+        </div>
+
+        <div class="asset-grid">
+          <article class="asset-card reveal ripple-target">
+            <div class="asset-icon"><i class="fas fa-book-open-reader" aria-hidden="true"></i></div>
+            <h4>Student Handbook</h4>
+            <p>Provides the rules, expectations, study conduct, assignment guidance and communication standards for enrolled students.</p>
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Excel%20Business%20School%20Student%20Handbook" class="asset-link">
+              Request handbook <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="asset-card reveal ripple-target">
+            <div class="asset-icon"><i class="fas fa-file-lines" aria-hidden="true"></i></div>
+            <h4>Premium Prospectus</h4>
+            <p>Prospective students can request a premium overview of courses, methodology, fees, contact routes and tuition expectations.</p>
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Excel%20Business%20School%20Prospectus" class="asset-link">
+              Request prospectus <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="asset-card reveal ripple-target">
+            <div class="asset-icon"><i class="fas fa-clipboard-check" aria-hidden="true"></i></div>
+            <h4>Sample Marked Scripts</h4>
+            <p>Students are trained using marking logic, examiner-style discipline and point-by-point answer improvement.</p>
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Sample%20Marked%20Script" class="asset-link">
+              Request sample <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="asset-card reveal ripple-target">
+            <div class="asset-icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+            <h4>Academic Timetables</h4>
+            <p>Tuition is organised around structured class scheduling, revision planning and exam-cycle readiness.</p>
+            <a href="timetables.html" class="asset-link">
+              View timetables <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+
+        <div class="calendar-grid">
+          <article class="calendar-card reveal ripple-target">
+            <h4>Teaching Phase</h4>
+            <p>Technical coverage, live explanations, discussion of examinable areas and structured notes.</p>
+          </article>
+
+          <article class="calendar-card reveal ripple-target">
+            <h4>Practice Phase</h4>
+            <p>Question practice, marked scripts, exam writing correction and focused feedback.</p>
+          </article>
+
+          <article class="calendar-card reveal ripple-target">
+            <h4>Revision Phase</h4>
+            <p>Time pressure, mock discipline, key topic review and final exam technique refinement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="global-experience" class="section section-divider">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Global Learning Experience</div>
+          <h2 class="section-title">A borderless digital campus with institutional discipline.</h2>
+          <p class="section-lead">
+            Excel Business School is built around a complete learning experience: class discipline, digital access, academic governance, feedback systems, student support and professional development.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card reveal ripple-target">
+            <div class="experience-icon"><i class="fas fa-earth-africa" aria-hidden="true"></i></div>
+            <h3>Built for ambitious candidates across borders.</h3>
+            <p>
+              The online model allows students to access structured professional tuition without being limited by geography, while maintaining class accountability and tutor support.
+            </p>
+
+            <ul class="experience-list">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Live online tuition for remote and working students</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Recordings for revision, catch-up and repeated learning</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> WhatsApp communication for direct academic support</li>
+            </ul>
+          </article>
+
+          <article class="experience-card reveal ripple-target">
+            <div class="experience-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
+            <h3>Designed around academic seriousness.</h3>
+            <p>
+              The school does not position tuition as casual coaching. The learning process is structured around technical mastery, assignment discipline, examination readiness and professional conduct.
+            </p>
+
+            <ul class="experience-list">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Academic expectations from enrollment</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Formal assignment and feedback rhythm</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Professional answer drafting and scenario discipline</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="campus-preview">
+          <div class="reveal">
+            <div class="eyebrow">Digital Campus Preview</div>
+            <h2 class="section-title">A controlled student experience beyond ordinary online tuition.</h2>
+            <p class="section-lead">
+              The learning environment is positioned as a digital campus where students understand their classes, recordings, assignments, notices, feedback and academic milestones.
+            </p>
+
+            <div class="hero-actions">
+              <a href="portal.html" class="btn btn-primary ripple-target">
+                View Student Portal
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+
+              <a href="timetables.html" class="btn btn-outline ripple-target">
+                <i class="fas fa-calendar-days" aria-hidden="true"></i>
+                View Timetables
+              </a>
+            </div>
+          </div>
+
+          <div class="campus-terminal reveal">
+            <div class="terminal-top">
+              <div class="terminal-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-title">Student Command Centre</div>
+            </div>
+
+            <div class="portal-dashboard">
+              <div class="portal-row">
+                <div class="portal-row-icon"><i class="fas fa-video" aria-hidden="true"></i></div>
+                <div>
+                  <strong>Recorded Lecture Library</strong>
+                  <span>Replay difficult topics and revise before mock practice.</span>
+                </div>
+                <span class="portal-status">Active</span>
+              </div>
+
+              <div class="portal-row">
+                <div class="portal-row-icon"><i class="fas fa-file-pen" aria-hidden="true"></i></div>
+                <div>
+                  <strong>Assignment Submission</strong>
+                  <span>Practice scripts are reviewed for structure, relevance and mark quality.</span>
+                </div>
+                <span class="portal-status">Marked</span>
+              </div>
+
+              <div class="portal-row">
+                <div class="portal-row-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></div>
+                <div>
+                  <strong>Exam Readiness Tracker</strong>
+                  <span>Students are guided through technical coverage, practice and revision.</span>
+                </div>
+                <span class="portal-status">Tracked</span>
+              </div>
+
+              <div class="portal-row">
+                <div class="portal-row-icon"><i class="fas fa-bell" aria-hidden="true"></i></div>
+                <div>
+                  <strong>Academic Notices</strong>
+                  <span>Class updates, study reminders and important announcements.</span>
+                </div>
+                <span class="portal-status">Live</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quality-assurance" class="section">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Academic Quality Assurance</div>
+          <h2 class="section-title">Quality is controlled through a clear academic performance cycle.</h2>
+          <p class="section-lead">
+            The learning process follows a clear quality cycle so that students do not merely attend classes, but move through a controlled system of preparation, feedback and improvement.
+          </p>
+        </div>
+
+        <div class="quality-chain">
+          <article class="quality-step reveal ripple-target">
+            <small>Stage 01</small>
+            <h4>Diagnostic Review</h4>
+            <p>Understand the student’s paper, target sitting, study position and areas of weakness.</p>
+          </article>
+
+          <article class="quality-step reveal ripple-target">
+            <small>Stage 02</small>
+            <h4>Technical Coverage</h4>
+            <p>Build the core principles, standards, audit requirements and tax rules needed for the exam.</p>
+          </article>
+
+          <article class="quality-step reveal ripple-target">
+            <small>Stage 03</small>
+            <h4>Scenario Application</h4>
+            <p>Convert theory into practical exam responses using real question requirements and case facts.</p>
+          </article>
+
+          <article class="quality-step reveal ripple-target">
+            <small>Stage 04</small>
+            <h4>Marked Practice</h4>
+            <p>Review scripts to identify missing application, weak structure and lost marks.</p>
+          </article>
+
+          <article class="quality-step reveal ripple-target">
+            <small>Stage 05</small>
+            <h4>Revision Control</h4>
+            <p>Focus on examinable areas, time pressure, professional presentation and final correction.</p>
+          </article>
+
+          <article class="quality-step reveal ripple-target">
+            <small>Stage 06</small>
+            <h4>Exam Readiness</h4>
+            <p>Prepare students to write focused, relevant and mark-driven answers under exam conditions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="student-resources" class="section section-divider">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Student Resource Centre</div>
+          <h2 class="section-title">Resources that support students, sponsors and academic accountability.</h2>
+          <p class="section-lead">
+            These resources create the impression of a serious academic institution with structure, documentation and a professional support environment.
+          </p>
+        </div>
+
+        <div class="resource-command">
+          <article class="resource-card reveal ripple-target">
+            <i class="fas fa-book-open-reader" aria-hidden="true"></i>
+            <h4>Student Handbook</h4>
+            <p>
+              A professional guide covering class expectations, conduct, assignments, recordings, communication and academic discipline.
+            </p>
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Excel%20Business%20School%20Student%20Handbook">
+              Request handbook <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="resource-card reveal ripple-target">
+            <i class="fas fa-file-lines" aria-hidden="true"></i>
+            <h4>Premium Prospectus</h4>
+            <p>
+              A formal admissions document explaining tuition routes, fees, delivery method, support model and enrollment process.
+            </p>
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Excel%20Business%20School%20Prospectus">
+              Request prospectus <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="resource-card reveal ripple-target">
+            <i class="fas fa-clipboard-check" aria-hidden="true"></i>
+            <h4>Sample Marked Script</h4>
+            <p>
+              Demonstrates the school’s marking discipline and how students are corrected on structure, application and scoring quality.
+            </p>
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Sample%20Marked%20Script">
+              Request sample <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+
+        <div class="employer-panel">
+          <article class="employer-card reveal ripple-target">
+            <div class="eyebrow">Employer Sponsorship</div>
+            <h3>Formal support for students funded by employers or sponsors.</h3>
+            <p>
+              Students who require employer approval, sponsorship confirmation or a formal payment request may ask for a tuition support letter or fee confirmation document.
+            </p>
+
+            <div class="employer-actions">
+              <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Employer%20Sponsorship%20Letter" class="btn btn-primary ripple-target">
+                Request Sponsorship Letter
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="employer-card reveal ripple-target">
+            <div class="eyebrow">Professional Admissions</div>
+            <h3>Institutional communication for serious candidates.</h3>
+            <p>
+              Enrollment can be supported through formal communication, fee confirmation, timetable information and academic onboarding guidance.
+            </p>
+
+            <div class="employer-actions">
+              <a href="#contact" class="btn btn-primary ripple-target">
+                Start Admission
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+
+              <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Tuition%20Fee%20Confirmation" class="btn btn-outline ripple-target">
+                Request Fee Confirmation
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sample-lectures" class="section">
+      <div class="container">
+        <div class="video-head reveal">
+          <div>
+            <div class="eyebrow">Sample Lectures</div>
+            <h2 class="section-title">Preview the teaching standard before you enroll.</h2>
+          </div>
+
+          <p class="section-lead">
+            Watch sample teaching extracts and see the practical, structured and exam-focused learning style used to support students and working professionals preparing under pressure.
+          </p>
+        </div>
+
+        <div class="video-grid">
+          <div class="video-card reveal">
+            <div
+              class="video-container ripple-target"
+              data-video-id="HjckNBy0iEg"
+              tabindex="0"
+              role="button"
+              aria-label="Play Advanced Audit and Assurance laws and regulations sample lecture"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=900&auto=format&fit=crop"
+                width="900"
+                height="506"
+                alt="Advanced Audit and Assurance laws and regulations sample lecture cover"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <div class="video-cover-shade" aria-hidden="true"></div>
+
+              <div class="video-cover-content">
+                <span class="video-paper-code">AAA Sample Lecture · ISA 250</span>
+                <h3>Laws &amp; Regulations in Audit</h3>
+                <p>
+                  Advanced Audit &amp; Assurance sample lesson on laws, regulations, auditor responsibilities, NOCLAR and exam-focused application.
+                </p>
+
+                <div class="video-cover-tags" aria-label="AAA lecture focus areas">
+                  <span><i class="fas fa-scale-balanced" aria-hidden="true"></i> Compliance</span>
+                  <span><i class="fas fa-gavel" aria-hidden="true"></i> NOCLAR</span>
+                  <span><i class="fas fa-pen-nib" aria-hidden="true"></i> Exam Technique</span>
+                </div>
+              </div>
+
+              <div class="play-ring"><i class="fas fa-play" aria-hidden="true"></i></div>
+            </div>
+
+            <p class="video-title">AAA · Laws and Regulations</p>
+          </div>
+
+          <div class="video-card reveal">
+            <div
+              class="video-container ripple-target"
+              data-video-id="DEO8dsAWi_w"
+              tabindex="0"
+              role="button"
+              aria-label="Play Strategic Business Reporting sample lecture"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=900&auto=format&fit=crop"
+                width="900"
+                height="506"
+                alt="Strategic Business Reporting sample lecture"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <div class="video-cover-shade" aria-hidden="true"></div>
+
+              <div class="video-cover-content">
+                <span class="video-paper-code">SBR Sample Lecture</span>
+                <h3>Strategic Business Reporting</h3>
+                <p>
+                  Technical IFRS explanation, scenario application and professional reporting discussion for advanced-level students.
+                </p>
+              </div>
+
+              <div class="play-ring"><i class="fas fa-play" aria-hidden="true"></i></div>
+            </div>
+
+            <p class="video-title">Strategic Business Reporting</p>
+          </div>
+
+          <div class="video-card reveal">
+            <div
+              class="video-container ripple-target"
+              data-video-id="AzD2vgtwl7o"
+              tabindex="0"
+              role="button"
+              aria-label="Play Advanced Taxation UK sample lecture"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=900&auto=format&fit=crop"
+                width="900"
+                height="506"
+                alt="Advanced Taxation UK sample lecture"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <div class="video-cover-shade" aria-hidden="true"></div>
+
+              <div class="video-cover-content">
+                <span class="video-paper-code">ATX Sample Lecture</span>
+                <h3>Advanced Taxation UK</h3>
+                <p>
+                  Structured tax planning, professional advice and computation-focused exam preparation.
+                </p>
+              </div>
+
+              <div class="play-ring"><i class="fas fa-play" aria-hidden="true"></i></div>
+            </div>
+
+            <p class="video-title">Advanced Taxation UK</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-divider">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Admissions Questions</div>
+          <h2 class="section-title">Clear answers before you commit.</h2>
+          <p class="section-lead">
+            A premium school reduces uncertainty. Students should understand how classes, recordings, assignments and support work before committing.
+          </p>
+        </div>
+
+        <div class="faq-grid">
+          <article class="faq-item reveal ripple-target">
+            <h4>Are classes suitable for working professionals?</h4>
+            <p>Yes. The learning model is designed around evening-friendly live sessions, recorded access and structured support for students balancing work and study.</p>
+          </article>
+
+          <article class="faq-item reveal ripple-target">
+            <h4>Do students receive lecture recordings?</h4>
+            <p>Yes. Recorded lecture access supports revision, catch-up and repeated review of complex topics.</p>
+          </article>
+
+          <article class="faq-item reveal ripple-target">
+            <h4>Are assignments marked?</h4>
+            <p>Yes. Marked practice is part of the learning experience because students need to know exactly where marks are being lost.</p>
+          </article>
+
+          <article class="faq-item reveal ripple-target">
+            <h4>How do students ask questions?</h4>
+            <p>Students may use live class interaction, WhatsApp support and direct guidance channels depending on the tuition arrangement.</p>
+          </article>
+
+          <article class="faq-item reveal ripple-target">
+            <h4>Can I start before the next exam cycle?</h4>
+            <p>Yes. The early start route is recommended for students who want more time for technical understanding, question practice and revision discipline.</p>
+          </article>
+
+          <article class="faq-item reveal ripple-target">
+            <h4>How do I apply?</h4>
+            <p>Use the enquiry form below. It will open your email application with the admission enquiry already prepared for sending.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-layout">
+        <div class="reveal">
+          <div class="eyebrow">Start Admission</div>
+          <h2 class="section-title">Enter a structured ACCA learning system built for serious candidates.</h2>
+
+          <p class="section-lead">
+            Send your course enquiry and indicate the paper you want to study. You can also contact Excel Business School directly through WhatsApp or email.
+          </p>
+
+          <div class="contact-options">
+            <a
+              href="https://wa.me/260975899280"
+              target="_blank"
+              rel="noopener"
+              class="contact-option ripple-target"
+            >
+              <div class="contact-option-icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+              <span>
+                <strong>WhatsApp Admissions</strong>
+                <span>+260 975 899 280</span>
+              </span>
+            </a>
+
+            <a href="mailto:lloyd.shumba@excelbusinessschool.uk" class="contact-option ripple-target">
+              <div class="contact-option-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+              <span>
+                <strong>Email Admissions</strong>
+                <span>lloyd.shumba@excelbusinessschool.uk</span>
+              </span>
+            </a>
+
+            <a href="timetables.html" class="contact-option ripple-target">
+              <div class="contact-option-icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+              <span>
+                <strong>View Timetables</strong>
+                <span>Check available class schedules</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <form class="form-panel reveal" id="admissionsForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" placeholder="Your full name" autocomplete="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">WhatsApp Number</label>
+              <input id="phone" name="phone" type="tel" placeholder="+263 / +260 ..." autocomplete="tel" required />
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="paper">Paper of Interest</label>
+              <select id="paper" name="paper" required>
+                <option value="">Select paper</option>
+                <option value="AAA - Advanced Audit and Assurance">AAA - Advanced Audit and Assurance</option>
+                <option value="SBR - Strategic Business Reporting">SBR - Strategic Business Reporting</option>
+                <option value="ATX - Advanced Taxation UK">ATX - Advanced Taxation UK</option>
+                <option value="General ACCA Enquiry">General ACCA Enquiry</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="targetSitting">Target Exam Sitting</label>
+            <input id="targetSitting" name="targetSitting" type="text" placeholder="Example: September sitting / December sitting" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us your target sitting, current study position and the paper you want to prepare for."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn ripple-target">
+            Prepare Admission Email
+          </button>
+
+          <p class="form-note">
+            This opens your email application with the enquiry prepared. Please review and press Send.
+          </p>
+
+          <div class="form-status" id="formStatus" role="status" aria-live="polite">
+            Your email application should open now. If it does not open, please email lloyd.shumba@excelbusinessschool.uk directly.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="final-cta reveal ripple-target">
+          <h2>Do not just attend classes. <span>Enter a disciplined professional learning system.</span></h2>
+          <p>
+            Excel Business School is built for students who want structure, confidence, accountability and exam-standard preparation. If you are serious about passing, start with a serious institution.
+          </p>
+
+          <div class="final-cta-actions">
+            <a href="#contact" class="btn btn-primary ripple-target">
+              Apply for Tuition
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+            <a href="#sample-lectures" class="btn btn-outline ripple-target">
+              <i class="fas fa-play" aria-hidden="true"></i>
+              Watch Sample Lectures
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
         <div>
-          <h4 class="font-bold text-gray-900 mb-4 uppercase tracking-wider text-xs">Quick Links</h4>
-          <ul class="space-y-3">
-            <li><a href="#about" class="text-gray-600 hover:text-accent transition-colors">About Us</a></li>
-            <li><a href="#courses" class="text-gray-600 hover:text-accent transition-colors">Our Courses</a></li>
-            <li><a href="#pricing" class="text-gray-600 hover:text-accent transition-colors">Tuition Fees</a></li>
-            <li><a href="#governance" class="text-gray-600 hover:text-accent transition-colors">Governance</a></li>
+          <div class="footer-logo-box">
+            <img src="excel-logo.png" width="98" height="72" alt="Excel Business School" loading="lazy" decoding="async" />
+          </div>
+
+          <p>
+            Excel Business School provides premium ACCA tuition, professional mentorship, recorded learning access, academic governance and exam-focused support for serious students and working professionals.
+          </p>
+        </div>
+
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about"><i class="fas fa-angle-right" aria-hidden="true"></i> About</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right" aria-hidden="true"></i> Courses</a></li>
+            <li><a href="#success"><i class="fas fa-angle-right" aria-hidden="true"></i> Student Success</a></li>
+            <li><a href="#methodology"><i class="fas fa-angle-right" aria-hidden="true"></i> Methodology</a></li>
+            <li><a href="#admissions"><i class="fas fa-angle-right" aria-hidden="true"></i> Admissions</a></li>
+            <li><a href="#pricing"><i class="fas fa-angle-right" aria-hidden="true"></i> Fees</a></li>
+            <li><a href="#governance"><i class="fas fa-angle-right" aria-hidden="true"></i> Governance</a></li>
+            <li><a href="#global-experience"><i class="fas fa-angle-right" aria-hidden="true"></i> Global Experience</a></li>
+            <li><a href="#quality-assurance"><i class="fas fa-angle-right" aria-hidden="true"></i> Quality Assurance</a></li>
+            <li><a href="#student-resources"><i class="fas fa-angle-right" aria-hidden="true"></i> Student Resources</a></li>
+            <li><a href="#sample-lectures"><i class="fas fa-angle-right" aria-hidden="true"></i> Sample Lectures</a></li>
+            <li><a href="timetables.html"><i class="fas fa-angle-right" aria-hidden="true"></i> Timetables</a></li>
+            <li><a href="portal.html"><i class="fas fa-angle-right" aria-hidden="true"></i> Student Portal</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="font-bold text-gray-900 mb-4 uppercase tracking-wider text-xs">Contact</h4>
-          <ul class="space-y-3 text-gray-600">
-            <li><i class="fas fa-envelope mr-2 text-gray-400"></i> lloyd.shumba@excelbusinessschool.uk</li>
-            <li><i class="fab fa-whatsapp mr-2 text-gray-400"></i> +260 975 899 280</li>
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="mailto:lloyd.shumba@excelbusinessschool.uk">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                lloyd.shumba@excelbusinessschool.uk
+              </a>
+            </li>
+
+            <li>
+              <a href="https://wa.me/260975899280" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                +260 975 899 280
+              </a>
+            </li>
+
+            <li>
+              <a href="#contact">
+                <i class="fas fa-user-plus" aria-hidden="true"></i>
+                Apply for Tuition
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:lloyd.shumba@excelbusinessschool.uk?subject=Request%20for%20Excel%20Business%20School%20Prospectus">
+                <i class="fas fa-file-lines" aria-hidden="true"></i>
+                Request Prospectus
+              </a>
+            </li>
           </ul>
         </div>
       </div>
-      
-      <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
-        <div class="mb-4 md:mb-0">
-          &copy; <span id="year"></span> Excel Business School. All rights reserved.
-        </div>
-        <div>Premium ACCA Tuition · AAA · SBR · ATX</div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Excel Business School. All rights reserved.</span>
+        <span>Premium ACCA Tuition · AAA · SBR · ATX</span>
       </div>
     </div>
   </footer>
 
   <script>
-    // --- Mobile Menu Logic ---
     const menuBtn = document.getElementById("menuBtn");
     const closeBtn = document.getElementById("closeBtn");
     const mobileMenu = document.getElementById("mobileMenu");
@@ -615,69 +3531,128 @@
     const mobileLinks = document.querySelectorAll(".mobile-link");
 
     function openMenu() {
-      mobileMenu.classList.remove("translate-x-full");
-      mobileBackdrop.classList.remove("hidden");
-      // Small timeout to allow display:block to apply before changing opacity
-      setTimeout(() => mobileBackdrop.classList.remove("opacity-0"), 10);
+      if (!mobileMenu || !mobileBackdrop || !menuBtn) return;
+
+      mobileMenu.classList.add("open");
+      mobileBackdrop.classList.add("open");
+      mobileMenu.setAttribute("aria-hidden", "false");
+      menuBtn.setAttribute("aria-expanded", "true");
       document.body.style.overflow = "hidden";
+
+      const firstLink = mobileMenu.querySelector("a, button");
+      if (firstLink) firstLink.focus();
     }
 
     function closeMenu() {
-      mobileMenu.classList.add("translate-x-full");
-      mobileBackdrop.classList.add("opacity-0");
-      setTimeout(() => mobileBackdrop.classList.add("hidden"), 300);
+      if (!mobileMenu || !mobileBackdrop || !menuBtn) return;
+
+      mobileMenu.classList.remove("open");
+      mobileBackdrop.classList.remove("open");
+      mobileMenu.setAttribute("aria-hidden", "true");
+      menuBtn.setAttribute("aria-expanded", "false");
       document.body.style.overflow = "";
+      menuBtn.focus();
     }
 
-    if (menuBtn) menuBtn.addEventListener("click", openMenu);
-    if (closeBtn) closeBtn.addEventListener("click", closeMenu);
-    if (mobileBackdrop) mobileBackdrop.addEventListener("click", closeMenu);
-    mobileLinks.forEach(link => link.addEventListener("click", closeMenu));
+    if (menuBtn) {
+      menuBtn.addEventListener("click", openMenu);
+    }
 
-    // --- Intersection Observer (Scroll Animations) ---
+    if (closeBtn) {
+      closeBtn.addEventListener("click", closeMenu);
+    }
+
+    if (mobileBackdrop) {
+      mobileBackdrop.addEventListener("click", closeMenu);
+    }
+
+    mobileLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        if (mobileMenu && mobileMenu.classList.contains("open")) {
+          closeMenu();
+        }
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && mobileMenu && mobileMenu.classList.contains("open")) {
+        closeMenu();
+      }
+    });
+
     const revealItems = document.querySelectorAll(".reveal");
+
     if ("IntersectionObserver" in window) {
-      const revealObserver = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("in-view");
-            revealObserver.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.1 });
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.12
+        }
+      );
+
       revealItems.forEach((item) => revealObserver.observe(item));
     } else {
       revealItems.forEach((item) => item.classList.add("in-view"));
     }
 
-    // --- Video Embedding ---
+    document.querySelectorAll(".ripple-target").forEach((element) => {
+      element.addEventListener("click", function (event) {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+        const ripple = document.createElement("span");
+        const rect = this.getBoundingClientRect();
+
+        ripple.className = "ripple";
+        ripple.style.left = `${event.clientX - rect.left}px`;
+        ripple.style.top = `${event.clientY - rect.top}px`;
+
+        this.appendChild(ripple);
+
+        window.setTimeout(() => {
+          ripple.remove();
+        }, 700);
+      });
+    });
+
     function loadVideo(container) {
       const videoId = container.dataset.videoId;
-      if (!videoId || container.classList.contains("embedded-video")) return;
+
+      if (!videoId || container.classList.contains("embedded-video")) {
+        return;
+      }
 
       const iframe = document.createElement("iframe");
       iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`;
-      iframe.title = "Sample Lecture";
+      iframe.title = container.getAttribute("aria-label") || "Excel Business School sample lecture";
       iframe.loading = "lazy";
-      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.allowFullscreen = true;
 
       container.innerHTML = "";
       container.appendChild(iframe);
       container.classList.add("embedded-video");
+      container.removeAttribute("role");
+      container.removeAttribute("tabindex");
     }
 
     document.querySelectorAll(".video-container[data-video-id]").forEach((container) => {
       container.addEventListener("click", () => loadVideo(container));
-      container.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
+
+      container.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
           loadVideo(container);
         }
       });
     });
 
-    // --- Form Submission (MailTo logic) ---
     const admissionsForm = document.getElementById("admissionsForm");
     const formStatus = document.getElementById("formStatus");
 
@@ -685,7 +3660,13 @@
       admissionsForm.addEventListener("submit", function (event) {
         event.preventDefault();
 
+        if (!admissionsForm.checkValidity()) {
+          admissionsForm.reportValidity();
+          return;
+        }
+
         const formData = new FormData(admissionsForm);
+
         const name = String(formData.get("name") || "").trim();
         const phone = String(formData.get("phone") || "").trim();
         const email = String(formData.get("email") || "").trim();
@@ -695,7 +3676,7 @@
 
         const recipient = "lloyd.shumba@excelbusinessschool.uk";
         const subject = `Excel Business School Tuition Enquiry - ${paper} - ${name}`;
-        
+
         const body = [
           "New Excel Business School tuition enquiry",
           "",
@@ -707,17 +3688,23 @@
           "",
           "Student Message:",
           message,
+          "",
+          "Source: Excel Business School website"
         ].join("\n");
 
-        window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        
-        if (formStatus) formStatus.classList.add("show");
+        const mailtoLink =
+          `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        if (formStatus) {
+          formStatus.classList.add("show");
+        }
+
+        window.location.href = mailtoLink;
       });
     }
 
-    // Set Copyright Year
-    const yearEl = document.getElementById("year");
-    if (yearEl) yearEl.textContent = new Date().getFullYear();
+    const year = document.getElementById("year");
+    if (year) year.textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
