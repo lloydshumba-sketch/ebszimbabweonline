@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>2026 Timetables | Excel Business School</title>
+  <title>June 2026 Timetables | Excel Business School</title>
 
   <meta
     name="description"
-    content="Excel Business School June 2026 ACCA timetables for AAA, SBR and ATX. View class structure, live online study rhythm, teaching phases, practice phases, revision phases and student support details."
+    content="Excel Business School June 2026 ACCA timetables for AAA, SBR and ATX. AAA classes run on Monday, Wednesday and Friday at 20:00. SBR classes run on Tuesday at 18:30 and Thursday/Saturday at 20:00."
   />
 
   <meta name="theme-color" content="#081728" />
@@ -20,7 +20,7 @@
   <meta property="og:title" content="June 2026 Timetables | Excel Business School" />
   <meta
     property="og:description"
-    content="View Excel Business School June 2026 ACCA timetable structure for AAA, SBR and ATX students. Live online tuition, recorded access, marked practice and revision discipline."
+    content="View Excel Business School June 2026 ACCA timetable structure for AAA, SBR and ATX students, including AAA and SBR weekly class times. Live online tuition, recorded access, marked practice and revision discipline."
   />
   <meta property="og:url" content="https://www.ebszimbabwe.online/timetables.html" />
   <meta property="og:image" content="https://www.ebszimbabwe.online/excel-logo.png" />
@@ -52,7 +52,7 @@
       "@type": "WebPage",
       "name": "June 2026 Timetables | Excel Business School",
       "url": "https://www.ebszimbabwe.online/timetables.html",
-      "description": "Excel Business School June 2026 ACCA timetable structure for AAA, SBR and ATX students.",
+      "description": "Excel Business School June 2026 ACCA timetable structure for AAA, SBR and ATX students, including AAA and SBR weekly class times.",
       "publisher": {
         "@type": "EducationalOrganization",
         "name": "Excel Business School",
@@ -283,8 +283,7 @@
       min-width: max-content;
     }
 
-    .brand-logo,
-    .footer-brand img {
+    .brand-logo {
       width: 74px;
       height: 52px;
       border-radius: 15px;
@@ -293,13 +292,14 @@
       background: var(--white);
       box-shadow: 0 10px 24px rgba(8, 23, 40, 0.1);
       overflow: hidden;
+      flex: 0 0 74px;
     }
 
-    .brand-logo img,
-    .footer-brand img {
+    .brand-logo img {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      object-position: center;
     }
 
     .brand-text,
@@ -325,6 +325,34 @@
       font-style: normal;
       font-weight: 800;
       margin-top: 5px;
+    }
+
+    .brand-badge,
+    .footer-brand-badge {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: 16px;
+      color: var(--navy-950);
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 245, 219, 0.92));
+      border: 1px solid rgba(217, 183, 115, 0.34);
+      box-shadow: 0 14px 34px rgba(8, 23, 40, 0.12);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+    }
+
+    .brand-badge {
+      width: 74px;
+      height: 52px;
+      font-size: 1.05rem;
+    }
+
+    .footer-brand-badge {
+      width: 52px;
+      height: 52px;
+      font-size: 0.96rem;
+      background: linear-gradient(135deg, var(--gold), var(--gold-soft));
     }
 
     .nav-links {
@@ -661,13 +689,56 @@
       gap: 18px;
     }
 
-    .calendar-logo {
-      width: 72px;
-      height: 54px;
-      border-radius: 16px;
-      object-fit: contain;
-      background: var(--white);
-      box-shadow: 0 12px 26px rgba(8, 23, 40, 0.12);
+    .calendar-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      padding: 10px 12px;
+      border-radius: 20px;
+      background: rgba(8, 23, 40, 0.04);
+      border: 1px solid rgba(8, 23, 40, 0.08);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    }
+
+    .calendar-mark {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      flex: 0 0 44px;
+      border-radius: 14px;
+      color: var(--navy-950);
+      background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+      border: 1px solid rgba(217, 183, 115, 0.42);
+      box-shadow: 0 12px 26px rgba(8, 23, 40, 0.10);
+      font-size: 0.82rem;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+    }
+
+    .calendar-brand-text {
+      display: grid;
+      min-width: 0;
+      line-height: 1.12;
+    }
+
+    .calendar-brand-text strong {
+      color: var(--navy-950);
+      font-size: 0.92rem;
+      font-weight: 900;
+      letter-spacing: -0.035em;
+      white-space: nowrap;
+    }
+
+    .calendar-brand-text span {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 0.66rem;
+      font-weight: 900;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      white-space: nowrap;
     }
 
     .calendar-status {
@@ -1589,6 +1660,21 @@
         right: 16px;
         bottom: 16px;
       }
+
+      .calendar-top {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .calendar-brand {
+        width: 100%;
+      }
+
+      .calendar-brand-text strong,
+      .calendar-brand-text span {
+        white-space: normal;
+      }
+
     }
 
     @media (max-width: 460px) {
@@ -1764,7 +1850,13 @@
         <div class="hero-panel reveal" aria-label="June 2026 timetable summary">
           <div class="calendar-card">
             <div class="calendar-top">
-              <img src="excel-logo.png" class="calendar-logo" width="82" height="58" alt="Excel Business School" />
+              <div class="calendar-brand" aria-label="Excel Business School academic calendar">
+                <span class="calendar-mark" aria-hidden="true">EBS</span>
+                <span class="calendar-brand-text">
+                  <strong>Excel Business School</strong>
+                  <span>Academic Calendar</span>
+                </span>
+              </div>
               <span class="calendar-status"><span class="live-dot" aria-hidden="true"></span> Active Session</span>
             </div>
 
@@ -1772,15 +1864,15 @@
               <small>Academic Calendar</small>
               <h2>June 2026 Timetable</h2>
               <p>
-                Structured evening learning for AAA, SBR and ATX students. Each class window is designed to combine technical teaching with exam-standard application.
+                Structured evening learning for AAA, SBR and ATX students. AAA runs on Monday, Wednesday and Friday at 20:00, while SBR runs on Tuesday at 18:30 and Thursday/Saturday at 20:00.
               </p>
             </div>
 
             <div class="calendar-meta">
               <div class="meta-box">
                 <svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
-                <strong>7:00 PM - 10:00 PM</strong>
-                <span>Evening learning rhythm for working students.</span>
+                <strong>18:30 / 20:00 CAT</strong>
+                <span>AAA starts at 20:00; SBR starts at 18:30 on Tuesday and 20:00 on Thursday/Saturday.</span>
               </div>
 
               <div class="meta-box">
@@ -1817,7 +1909,7 @@
         <article class="command-card reveal">
           <svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
           <strong>Professional evening rhythm</strong>
-          <span>Classes are positioned around evening learning for students who work during the day.</span>
+          <span>AAA and SBR are positioned around controlled evening starts for working students and serious candidates.</span>
         </article>
 
         <article class="command-card reveal">
@@ -1873,7 +1965,7 @@
               <div class="paper-facts">
                 <div class="paper-fact">
                   <svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
-                  <span><strong>Class window</strong><span>7:00 PM - 10:00 PM CAT</span></span>
+                  <span><strong>Class start time</strong><span>Monday, Wednesday and Friday at 20:00 CAT</span></span>
                 </div>
                 <div class="paper-fact">
                   <svg class="icon" aria-hidden="true"><use href="#i-video"></use></svg>
@@ -1890,7 +1982,7 @@
               <div class="schedule-head">
                 <div>
                   <h3>AAA weekly timetable</h3>
-                  <p>The class rhythm separates technical delivery from exam application so students do not only listen, but also learn how to write.</p>
+                  <p>AAA classes are scheduled three times a week on Mondays, Wednesdays and Fridays, with each session starting at 20:00 CAT.</p>
                 </div>
                 <span class="schedule-badge"><svg class="icon" aria-hidden="true"><use href="#i-calendar"></use></svg> June 2026</span>
               </div>
@@ -1899,22 +1991,22 @@
                 <div class="schedule-row">
                   <div class="schedule-day">Monday</div>
                   <div class="schedule-content"><strong>Technical teaching and standard application</strong><span>ISA principles, risk logic, ethics, quality management and structured discussion.</span></div>
-                  <div class="schedule-time">7PM - 10PM</div>
+                  <div class="schedule-time">20:00 CAT</div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-day">Wednesday</div>
                   <div class="schedule-content"><strong>Scenario analysis and answer construction</strong><span>Case extraction, materiality, risk development, procedure drafting and professional presentation.</span></div>
-                  <div class="schedule-time">7PM - 10PM</div>
+                  <div class="schedule-time">20:00 CAT</div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-day">Friday</div>
                   <div class="schedule-content"><strong>Question practice, feedback and revision control</strong><span>Marked practice, correction of weak scripts and exam technique reinforcement.</span></div>
-                  <div class="schedule-time">7PM - 10PM</div>
+                  <div class="schedule-time">20:00 CAT</div>
                 </div>
               </div>
 
               <div class="note-box">
-                AAA students should prepare questions before class and submit written practice during the practice phase so feedback can be meaningful.
+                AAA students should prepare questions before each Monday, Wednesday and Friday session and submit written practice during the practice phase so feedback can be meaningful.
               </div>
             </article>
           </div>
@@ -1932,7 +2024,7 @@
               <div class="paper-facts">
                 <div class="paper-fact">
                   <svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
-                  <span><strong>Class window</strong><span>7:00 PM - 10:00 PM CAT</span></span>
+                  <span><strong>Class start times</strong><span>Tuesday at 18:30; Thursday and Saturday at 20:00 CAT</span></span>
                 </div>
                 <div class="paper-fact">
                   <svg class="icon" aria-hidden="true"><use href="#i-book"></use></svg>
@@ -1949,7 +2041,7 @@
               <div class="schedule-head">
                 <div>
                   <h3>SBR weekly timetable</h3>
-                  <p>The SBR rhythm supports technical IFRS coverage, applied reporting judgement and written discussion practice.</p>
+                  <p>SBR classes run on Tuesday at 18:30 CAT, followed by Thursday and Saturday evening sessions starting at 20:00 CAT.</p>
                 </div>
                 <span class="schedule-badge"><svg class="icon" aria-hidden="true"><use href="#i-calendar"></use></svg> June 2026</span>
               </div>
@@ -1958,22 +2050,22 @@
                 <div class="schedule-row">
                   <div class="schedule-day">Tuesday</div>
                   <div class="schedule-content"><strong>IFRS technical treatment</strong><span>Recognition, measurement, presentation and disclosure principles for examinable standards.</span></div>
-                  <div class="schedule-time">7PM - 10PM</div>
+                  <div class="schedule-time">18:30 CAT</div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-day">Thursday</div>
                   <div class="schedule-content"><strong>Scenario application and professional judgement</strong><span>Applying standards to transactions, explaining consequences and drafting balanced discussion.</span></div>
-                  <div class="schedule-time">7PM - 10PM</div>
+                  <div class="schedule-time">20:00 CAT</div>
                 </div>
                 <div class="schedule-row">
                   <div class="schedule-day">Saturday</div>
                   <div class="schedule-content"><strong>Practice questions and feedback clinic</strong><span>Question practice, marked feedback and correction of weak reporting explanations.</span></div>
-                  <div class="schedule-time">7PM - 10PM</div>
+                  <div class="schedule-time">20:00 CAT</div>
                 </div>
               </div>
 
               <div class="note-box">
-                SBR students should revise the relevant IFRS area before each class and attempt written discussion practice after the class.
+                SBR students should revise the relevant IFRS area before the Tuesday, Thursday and Saturday sessions and attempt written discussion practice after class.
               </div>
             </article>
           </div>
@@ -2198,8 +2290,8 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <a href="index.html" class="footer-brand">
-          <img src="excel-logo.png" width="82" height="58" alt="Excel Business School" />
+        <a href="index.html" class="footer-brand" aria-label="Excel Business School homepage">
+          <span class="footer-brand-badge" aria-hidden="true">EBS</span>
           <span>
             <strong>Excel Business School</strong>
             <em>June 2026 Timetables</em>
